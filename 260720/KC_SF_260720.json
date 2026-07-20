@@ -1,0 +1,118 @@
+{
+  "KC": {
+    "home_away": "home",
+    "starting_pitcher": "Wacha",
+    "roster": [
+      {
+        "name": "Caglianone",
+        "position": "RF"
+      },
+      {
+        "name": "Collins",
+        "position": "LF"
+      },
+      {
+        "name": "Jensen",
+        "position": "C"
+      },
+      {
+        "name": "Loftin",
+        "position": "3B"
+      },
+      {
+        "name": "Maile",
+        "position": "C"
+      },
+      {
+        "name": "Marte, S",
+        "position": "RF"
+      },
+      {
+        "name": "Massey",
+        "position": "2B"
+      },
+      {
+        "name": "Pasquantino",
+        "position": "1B"
+      },
+      {
+        "name": "Perez, S",
+        "position": "C"
+      },
+      {
+        "name": "Rojas, J",
+        "position": "3B"
+      },
+      {
+        "name": "Thomas, L",
+        "position": "CF"
+      },
+      {
+        "name": "Tolbert",
+        "position": "2B"
+      },
+      {
+        "name": "Witt Jr.",
+        "position": "SS"
+      }
+    ]
+  },
+  "SF": {
+    "home_away": "away",
+    "starting_pitcher": "McDonald",
+    "roster": [
+      {
+        "name": "Adames",
+        "position": "SS"
+      },
+      {
+        "name": "Arraez",
+        "position": "2B"
+      },
+      {
+        "name": "Cavanaugh",
+        "position": "C"
+      },
+      {
+        "name": "Devers",
+        "position": "1B"
+      },
+      {
+        "name": "Eldridge",
+        "position": "DH"
+      },
+      {
+        "name": "Gilbert",
+        "position": "CF"
+      },
+      {
+        "name": "Koss",
+        "position": "2B"
+      },
+      {
+        "name": "Lee, J",
+        "position": "RF"
+      },
+      {
+        "name": "McCray",
+        "position": "CF"
+      },
+      {
+        "name": "Ramos, H",
+        "position": "LF"
+      },
+      {
+        "name": "Rodriguez, J",
+        "position": "C"
+      },
+      {
+        "name": "Schmitt",
+        "position": "LF"
+      },
+      {
+        "name": "Susac, D",
+        "position": "C"
+      }
+    ]
+  }
+}

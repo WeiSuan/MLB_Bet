@@ -1,0 +1,118 @@
+{
+  "CHC": {
+    "home_away": "home",
+    "starting_pitcher": "Taillon",
+    "roster": [
+      {
+        "name": "Alcántara",
+        "position": "DH"
+      },
+      {
+        "name": "Amaya",
+        "position": "C"
+      },
+      {
+        "name": "Bregman",
+        "position": "3B"
+      },
+      {
+        "name": "Busch",
+        "position": "1B"
+      },
+      {
+        "name": "Conforto",
+        "position": "DH"
+      },
+      {
+        "name": "Crow-Armstrong",
+        "position": "CF"
+      },
+      {
+        "name": "Dean",
+        "position": "CF"
+      },
+      {
+        "name": "Happ",
+        "position": "LF"
+      },
+      {
+        "name": "Hoerner",
+        "position": "2B"
+      },
+      {
+        "name": "Kelly, C",
+        "position": "C"
+      },
+      {
+        "name": "Ramírez",
+        "position": "2B"
+      },
+      {
+        "name": "Suzuki",
+        "position": "RF"
+      },
+      {
+        "name": "Swanson",
+        "position": "SS"
+      }
+    ]
+  },
+  "DET": {
+    "home_away": "away",
+    "starting_pitcher": "Flaherty",
+    "roster": [
+      {
+        "name": "Carpenter",
+        "position": "RF"
+      },
+      {
+        "name": "Dingler",
+        "position": "C"
+      },
+      {
+        "name": "Greene, R",
+        "position": "LF"
+      },
+      {
+        "name": "Keith",
+        "position": "3B"
+      },
+      {
+        "name": "Lee",
+        "position": "2B"
+      },
+      {
+        "name": "Malgeri",
+        "position": "RF"
+      },
+      {
+        "name": "McGonigle",
+        "position": "SS"
+      },
+      {
+        "name": "McKinstry",
+        "position": "2B"
+      },
+      {
+        "name": "Outman",
+        "position": "CF"
+      },
+      {
+        "name": "Rogers",
+        "position": "C"
+      },
+      {
+        "name": "Torkelson",
+        "position": "1B"
+      },
+      {
+        "name": "Valencia",
+        "position": "C"
+      },
+      {
+        "name": "Vierling",
+        "position": "CF"
+      }
+    ]
+  }
+}
