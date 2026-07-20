@@ -19,6 +19,31 @@ $logFile = Join-Path $logDir "mlb_scraper_$timestamp.log"
 Push-Location $projectRoot
 try {
     & $pythonExe $scraperScript *>&1 | Tee-Object -FilePath $logFile
+    $scraperExitCode = $LASTEXITCODE
+
+    if ($scraperExitCode -ne 0) {
+        Write-Host "Scraper failed with exit code $scraperExitCode. Skip git sync."
+        exit $scraperExitCode
+    }
+
+    git add -A
+
+    $hasChanges = git diff --cached --quiet
+    if ($LASTEXITCODE -eq 0) {
+        Write-Host "No file changes detected. Skip commit/push."
+        exit 0
+    }
+
+    $commitDate = Get-Date -Format 'yyyy-MM-dd'
+    $commitMessage = "daily scraper update: $commitDate"
+    git commit -m $commitMessage | Tee-Object -FilePath $logFile -Append
+
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Commit failed."
+        exit $LASTEXITCODE
+    }
+
+    git push origin main | Tee-Object -FilePath $logFile -Append
     exit $LASTEXITCODE
 }
 finally {
