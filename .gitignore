@@ -6,16 +6,9 @@ __pycache__/
 .venv/
 
 # Generated runtime data/output should not be committed.
-data/
 .playwright/
 .playwright-mcp/
-logs/
-runtime/logs/
-runtime/local_mcp/
-runtime/playwright-mcp/
+
 
 # Exclude Playwright MCP artifacts/config from MLB betting project scope.
 docs/playwright_mcp_install_guide.md
-Dockerfile.mlb-mcp
-docker-compose.mlb-mcp.yml
-mlb_mcp_vscode_config.json
