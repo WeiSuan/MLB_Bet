@@ -1,103 +1,87 @@
-# Playwright MLB Probable Pitchers Scraper
+# MLB Betting Data Pipeline
 
-This project uses Python + Playwright to scrape MLB probable pitchers preview pages and export per-game JSON files for the current day.
+This project focuses on MLB betting-related data collection and enrichment.
+It builds daily datasets under `data/YYYYMMDD` with three layers:
 
-## Features
-
-- Scrape all games for the current date from https://www.mlb.com/probable-pitchers.
-- Open each game's Preview page and collect:
-  - team abbreviation
-  - home/away
-  - starting pitcher
-  - projected lineup roster (name + position)
-- Save one JSON file per game using this naming format:
-  - `{HOME}_{AWAY}_{YYMMDD}.json`
-- Create a date folder automatically in the project root.
-- Daily scheduled script supports auto sync to GitHub (`git add/commit/push`).
+1. `Roster`: lineup and probable pitcher data
+2. `Bet`: Taiwan Sports Lottery MLB market odds
+3. `PlayerData`: enriched player/team metrics for modeling and analysis
 
 ## Project Structure
 
-- `mlb_playwright_scraper.py`: main scraper script.
-- `run_daily_scraper.ps1`: scheduled entry script (run scraper, write logs, auto git sync).
-- `playwright_mcp_install_guide.md`: Playwright MCP setup guide.
-- `logs/`: runtime logs from scheduled jobs.
-- `<YYMMDD>/`: daily output folder with JSON files.
+```text
+PlaywrightMCP/
+├─ src/
+│  ├─ scrapers/
+│  │  ├─ mlb_playwright_scraper.py
+│  │  └─ sportslottery_baseball_bet_scraper.py
+│  └─ enrichers/
+│     └─ roster_player_data_enricher.py
+├─ scripts/
+│  └─ run_daily_scraper.ps1
+├─ data/
+│  └─ YYYYMMDD/
+│     ├─ Roster/
+│     ├─ Bet/
+│     └─ PlayerData/
+├─ runtime/
+│  └─ logs/
+├─ docs/
+└─ README.md
+```
 
 ## Requirements
 
-- Windows
-- Python 3.13+
-- Node.js 18+ (for Playwright MCP usage in VS Code)
-- Git
+1. Windows
+2. Python 3.13+
+3. Playwright for Python
+4. Git
+
+## Core Scripts
+
+1. `src/scrapers/mlb_playwright_scraper.py`
+- Scrapes MLB probable pitcher preview pages and writes `Roster` JSON files.
+
+2. `src/scrapers/sportslottery_baseball_bet_scraper.py`
+- Scrapes MLB betting markets and odds from Taiwan Sports Lottery and writes `Bet` JSON files.
+
+3. `src/enrichers/roster_player_data_enricher.py`
+- Reads `Roster` JSON files and enriches player/team data with season, advanced, and recent performance metrics.
 
 ## Local Run
 
-Run scraper manually:
+Run MLB roster scraper:
 
 ```powershell
-C:/Users/Weihsuan/AppData/Local/Programs/Python/Python313/python.exe .\mlb_playwright_scraper.py
+C:/Users/Weihsuan/AppData/Local/Programs/Python/Python313/python.exe .\src\scrapers\mlb_playwright_scraper.py
 ```
 
-Run scheduled wrapper script manually:
+Run betting market scraper:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\run_daily_scraper.ps1
+C:/Users/Weihsuan/AppData/Local/Programs/Python/Python313/python.exe .\src\scrapers\sportslottery_baseball_bet_scraper.py
 ```
 
-## Output Format
-
-Example (`NYY_PIT_260720.json`):
-
-```json
-{
-  "NYY": {
-    "home_away": "home",
-    "starting_pitcher": "Weathers",
-    "roster": [
-      { "name": "Bellinger", "position": "LF" }
-    ]
-  },
-  "PIT": {
-    "home_away": "away",
-    "starting_pitcher": "Ashcraft",
-    "roster": [
-      { "name": "Callihan, T", "position": "LF" }
-    ]
-  }
-}
-```
-
-## Daily Scheduling (Windows Task Scheduler)
-
-The project already includes a scheduled task:
-
-- Task name: `PlaywrightMlbScraperDaily`
-- Schedule: Daily at `09:00`
-
-Check task:
+Run enrichment for one matchup file:
 
 ```powershell
-schtasks /Query /TN PlaywrightMlbScraperDaily /V /FO LIST
+C:/Users/Weihsuan/Desktop/PlaywrightMCP/.venv/Scripts/python.exe .\src\enrichers\roster_player_data_enricher.py --date 20260721 --file TOR_TB_20260721.json
 ```
 
-Run task immediately:
+Run enrichment for all files in one date:
 
 ```powershell
-schtasks /Run /TN PlaywrightMlbScraperDaily
+C:/Users/Weihsuan/Desktop/PlaywrightMCP/.venv/Scripts/python.exe .\src\enrichers\roster_player_data_enricher.py --date 20260721 --all
 ```
 
-## Auto Git Sync Behavior
+Run scheduled wrapper manually:
 
-After scraper succeeds, `run_daily_scraper.ps1` will:
-
-1. `git add -A`
-2. skip commit/push if no changes
-3. commit with message: `daily scraper update: YYYY-MM-DD`
-4. push to `origin main`
-
-If scraper fails, git sync is skipped.
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\run_daily_scraper.ps1
+```
 
 ## Notes
 
-- Ensure your Git credentials are configured so scheduled runs can push without manual input.
-- `logs/` is ignored by git (`.gitignore`).
+1. Daily outputs are written under `data/YYYYMMDD`.
+2. Runtime logs are written under `runtime/logs`.
+3. This repository is scoped to MLB betting workflows; Playwright MCP config files are excluded from future updates via `.gitignore`.

@@ -130,11 +130,16 @@ def build_team_payload(
 
 
 def main() -> None:
+    # Resolve paths from file location so execution is stable from any cwd.
+    project_root = Path(__file__).resolve().parents[2]
+    data_root = project_root / "data"
+
     run_date = datetime.now()
     run_date_iso = run_date.strftime("%Y-%m-%d")
-    run_date_stamp = run_date.strftime("%y%m%d")
+    run_date_stamp = run_date.strftime("%Y%m%d")
 
-    output_dir = Path.cwd() / run_date_stamp
+    # Persist raw roster output under data/YYYYMMDD/Roster.
+    output_dir = data_root / run_date_stamp / "Roster"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     with sync_playwright() as p:
@@ -157,6 +162,7 @@ def main() -> None:
             if not game_pk:
                 continue
 
+            # Open game preview page and extract projected lineup table.
             preview_url = PREVIEW_URL_TEMPLATE.format(game_pk=game_pk)
             page.goto(preview_url, wait_until="domcontentloaded")
             page.wait_for_selector("table", timeout=20000)

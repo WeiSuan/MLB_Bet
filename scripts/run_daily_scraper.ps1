@@ -1,9 +1,10 @@
 $ErrorActionPreference = 'Stop'
 
-$projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$projectRoot = Split-Path -Parent $scriptDir
 $pythonExe = 'C:/Users/Weihsuan/AppData/Local/Programs/Python/Python313/python.exe'
-$scraperScript = Join-Path $projectRoot 'mlb_playwright_scraper.py'
-$logDir = Join-Path $projectRoot 'logs'
+$scraperScript = Join-Path $projectRoot 'src/scrapers/mlb_playwright_scraper.py'
+$logDir = Join-Path $projectRoot 'runtime/logs'
 
 if (-not (Test-Path $logDir)) {
     New-Item -Path $logDir -ItemType Directory | Out-Null
