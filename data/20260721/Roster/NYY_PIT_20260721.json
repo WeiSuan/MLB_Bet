@@ -1,0 +1,118 @@
+{
+  "NYY": {
+    "home_away": "home",
+    "starting_pitcher": "Warren",
+    "roster": [
+      {
+        "name": "Bellinger",
+        "position": "LF"
+      },
+      {
+        "name": "Caballero",
+        "position": "SS"
+      },
+      {
+        "name": "Chisholm Jr.",
+        "position": "2B"
+      },
+      {
+        "name": "Domínguez",
+        "position": "RF"
+      },
+      {
+        "name": "Goldschmidt",
+        "position": "1B"
+      },
+      {
+        "name": "Grisham",
+        "position": "CF"
+      },
+      {
+        "name": "McMahon",
+        "position": "3B"
+      },
+      {
+        "name": "Rice",
+        "position": "1B"
+      },
+      {
+        "name": "Rosario, A",
+        "position": "3B"
+      },
+      {
+        "name": "Schuemann",
+        "position": "SS"
+      },
+      {
+        "name": "Sánchez, A",
+        "position": "C"
+      },
+      {
+        "name": "Volpe",
+        "position": "SS"
+      },
+      {
+        "name": "Wells, A",
+        "position": "C"
+      }
+    ]
+  },
+  "PIT": {
+    "home_away": "away",
+    "starting_pitcher": "Chandler",
+    "roster": [
+      {
+        "name": "Callihan, T",
+        "position": "LF"
+      },
+      {
+        "name": "Cook, B",
+        "position": "RF"
+      },
+      {
+        "name": "Davis, H",
+        "position": "C"
+      },
+      {
+        "name": "Flores Jr.",
+        "position": "C"
+      },
+      {
+        "name": "Gonzales, N",
+        "position": "3B"
+      },
+      {
+        "name": "Gonzalez, J",
+        "position": "1B"
+      },
+      {
+        "name": "Lowe, B",
+        "position": "2B"
+      },
+      {
+        "name": "Mangum",
+        "position": "CF"
+      },
+      {
+        "name": "O'Hearn",
+        "position": "RF"
+      },
+      {
+        "name": "Ozuna",
+        "position": "DH"
+      },
+      {
+        "name": "Reynolds, B",
+        "position": "LF"
+      },
+      {
+        "name": "Triolo",
+        "position": "SS"
+      },
+      {
+        "name": "Valdez, Es",
+        "position": "RF"
+      }
+    ]
+  }
+}

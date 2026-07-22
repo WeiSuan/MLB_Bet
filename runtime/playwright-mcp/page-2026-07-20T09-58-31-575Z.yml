@@ -1,0 +1,779 @@
+- generic [ref=e1]:
+  - img:
+    - generic "Globe icon"
+    - generic "Login icon"
+    - generic "Recap icon"
+    - generic "Search icon"
+    - generic "Tickets icon"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic "Top Navigation" [ref=e5]:
+        - button "Open menu" [ref=e6] [cursor=pointer]
+        - link [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Major League Baseball" [ref=e14]
+        - navigation [ref=e17]:
+          - list "Secondary Navigation" [ref=e18]:
+            - listitem [ref=e19]:
+              - link "News" [ref=e21] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e23]:
+              - link "Scores" [ref=e25] [cursor=pointer]:
+                - /url: /scores/
+            - listitem [ref=e27]:
+              - link "Schedule" [ref=e29] [cursor=pointer]:
+                - /url: /schedule
+            - listitem [ref=e31]:
+              - link "Stats" [ref=e33] [cursor=pointer]:
+                - /url: /stats
+        - button "search" [ref=e36] [cursor=pointer]
+        - button "Log In" [ref=e38]
+      - navigation
+  - main [ref=e43]:
+    - iframe [ref=e47]:
+      - link [ref=f11e2] [cursor=pointer]:
+        - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstc0mpflqko5UQ_2a17N4NmwtzuUMdDBynoBgshcgwmw118DQgvngDG6MvpJiOmzmtKyBTaWsMmBn5YF_-5gYbxTEyozfrmt6YTjyeEbBMXcSbJOuJTbGECrH_l6ruWKls5UIPMZ5kSVBobDyr3CDRWBmNAyjMBUzp8gYFGME1wbpC88-Zg42Cvf3-_QZZT40bgzQBv5ynj5IQ8_Pb4ZR6CDV-M-XMVMNxmvuNVj3qJoqiIvcXvRXeIle320ZqjSN0O40Ms-NxfcSs37ztBdrS1W0RRafTvQStEz2O50SQTR_LYbkC-I9a3ybA1c28bz-QPn3kfC8odnotUTRVqmBNUa-jxcKq6etFA7a3NgeO6XPqnlezll1gTCNJANkIf5ix-y4vs02j9LDCOXFvQ7bhAy0pv9JfEtoCHDjSbVVB55T3XbfcHNQ&sai=AMfl-YRYO9pehumCJZCwkY-79nvV1znnNiJSRPZ4tJk1Ea88pt3act7ewQl-Ty32Mua9Ao29W4AaFDdNA9ddD7GgFjVe-YL9O0VnZlE4hWSBxFx0CgRS6Pfcvn1nAROB7dFaXzSS0-m-1oA3d40ZGS6EIhp0NY2RZUsf6QX3IpPkW0vmKK4dBoAQlotdO4CraQ7NMNzBEztJyz2ZlGRktVUE8W8EjKc4AZ_8LbSrMjMznGJrsJjR-D86znT1g1ySpCmE0FqIR7VhLZMlEZnAqqng0P0s4LvOrvpC2mFvgsSbPn028gf8os9uRSJgEQElfa_t7TBe0Fbyz_LnQagVd-lpGo7Uif3iTo9VCBLWTCVR8a16DSCCOWkzRBbM&sig=Cg0ArKJSzMpUWMzEfkCp&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.mlb.com/apps/mlb-app
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - heading "Baseball Probable Pitchers" [level=1] [ref=e55]
+          - generic [ref=e56]:
+            - toolbar [ref=e59]:
+              - button "Previous Day" [ref=e61] [cursor=pointer]:
+                - img "Arrow Left icon"
+              - button "Select Date" [ref=e63] [cursor=pointer]:
+                - textbox: July 20, 2026
+              - button "Next Day" [ref=e65] [cursor=pointer]:
+                - img "Arrow Right icon"
+            - generic [ref=e66]: All Times Eastern. Subject to change.
+          - generic [ref=e67]:
+            - generic [ref=e68]: View Matchup By Clicking on a Game
+            - generic [ref=e69]:
+              - list:
+                - listitem [ref=e70]:
+                  - button [disabled] [ref=e71]
+                - listitem [ref=e73]:
+                  - button [ref=e74]
+              - list [ref=e76]:
+                - listitem [ref=e77]:
+                  - table [ref=e84]:
+                    - rowgroup [ref=e85]:
+                      - row [ref=e86]:
+                        - cell "6:40 PM" [ref=e87]
+                      - row [ref=e89]:
+                        - cell "MIN" [ref=e90]
+                      - row [ref=e93]:
+                        - cell "CLE" [ref=e94]
+                - listitem [ref=e97]:
+                  - table [ref=e104]:
+                    - rowgroup [ref=e105]:
+                      - row [ref=e106]:
+                        - cell "7:05 PM" [ref=e107]
+                      - row [ref=e109]:
+                        - cell "PIT" [ref=e110]
+                      - row [ref=e113]:
+                        - cell "NYY" [ref=e114]
+                - listitem [ref=e117]:
+                  - table [ref=e124]:
+                    - rowgroup [ref=e125]:
+                      - row [ref=e126]:
+                        - cell "7:07 PM" [ref=e127]
+                      - row [ref=e129]:
+                        - cell "TB" [ref=e130]
+                      - row [ref=e133]:
+                        - cell "TOR" [ref=e134]
+                - listitem [ref=e137]:
+                  - table [ref=e144]:
+                    - rowgroup [ref=e145]:
+                      - row [ref=e146]:
+                        - cell "7:10 PM" [ref=e147]
+                      - row [ref=e149]:
+                        - cell "LAD" [ref=e150]
+                      - row [ref=e153]:
+                        - cell "PHI" [ref=e154]
+                - listitem [ref=e157]:
+                  - table [ref=e164]:
+                    - rowgroup [ref=e165]:
+                      - row [ref=e166]:
+                        - cell "7:10 PM" [ref=e167]
+                      - row [ref=e169]:
+                        - cell "BAL" [ref=e170]
+                      - row [ref=e173]:
+                        - cell "BOS" [ref=e174]
+                - listitem [ref=e177]:
+                  - table [ref=e184]:
+                    - rowgroup [ref=e185]:
+                      - row [ref=e186]:
+                        - cell "7:15 PM" [ref=e187]
+                      - row [ref=e189]:
+                        - cell "SD" [ref=e190]
+                      - row [ref=e193]:
+                        - cell "ATL" [ref=e194]
+                - listitem [ref=e197]:
+                  - table [ref=e204]:
+                    - rowgroup [ref=e205]:
+                      - row [ref=e206]:
+                        - cell "7:40 PM" [ref=e207]
+                      - row [ref=e209]:
+                        - cell "NYM" [ref=e210]
+                      - row [ref=e213]:
+                        - cell "MIL" [ref=e214]
+                - listitem [ref=e217]:
+                  - table [ref=e224]:
+                    - rowgroup [ref=e225]:
+                      - row [ref=e226]:
+                        - cell "7:40 PM" [ref=e227]
+                      - row [ref=e229]:
+                        - cell "SF" [ref=e230]
+                      - row [ref=e233]:
+                        - cell "KC" [ref=e234]
+                - listitem [ref=e237]:
+                  - table [ref=e244]:
+                    - rowgroup [ref=e245]:
+                      - row [ref=e246]:
+                        - cell "8:05 PM" [ref=e247]
+                      - row [ref=e249]:
+                        - cell "CWS" [ref=e250]
+                      - row [ref=e253]:
+                        - cell "TEX" [ref=e254]
+                - listitem [ref=e257]:
+                  - table [ref=e264]:
+                    - rowgroup [ref=e265]:
+                      - row [ref=e266]:
+                        - cell "8:05 PM" [ref=e267]
+                      - row [ref=e269]:
+                        - cell "DET" [ref=e270]
+                      - row [ref=e273]:
+                        - cell "CHC" [ref=e274]
+                - listitem [ref=e277]:
+                  - table [ref=e284]:
+                    - rowgroup [ref=e285]:
+                      - row [ref=e286]:
+                        - cell "8:10 PM" [ref=e287]
+                      - row [ref=e289]:
+                        - cell "MIA" [ref=e290]
+                      - row [ref=e293]:
+                        - cell "HOU" [ref=e294]
+                - listitem [ref=e297]:
+                  - table [ref=e304]:
+                    - rowgroup [ref=e305]:
+                      - row [ref=e306]:
+                        - cell "8:40 PM" [ref=e307]
+                      - row [ref=e309]:
+                        - cell "WSH" [ref=e310]
+                      - row [ref=e313]:
+                        - cell "COL" [ref=e314]
+                - listitem [ref=e317]:
+                  - table [ref=e324]:
+                    - rowgroup [ref=e325]:
+                      - row [ref=e326]:
+                        - cell "9:40 PM" [ref=e327]
+                      - row [ref=e329]:
+                        - cell "CIN" [ref=e330]
+                      - row [ref=e333]:
+                        - cell "SEA" [ref=e334]
+                - listitem [ref=e337]:
+                  - table [ref=e344]:
+                    - rowgroup [ref=e345]:
+                      - row [ref=e346]:
+                        - cell "9:40 PM" [ref=e347]
+                      - row [ref=e349]:
+                        - cell "ATH" [ref=e350]
+                      - row [ref=e353]:
+                        - cell "AZ" [ref=e354]
+                - listitem [ref=e357]:
+                  - table [ref=e364]:
+                    - rowgroup [ref=e365]:
+                      - row [ref=e366]:
+                        - cell "10:10 PM" [ref=e367]
+                      - row [ref=e369]:
+                        - cell "STL" [ref=e370]
+                      - row [ref=e373]:
+                        - cell "LAA" [ref=e374]
+        - generic [ref=e377]:
+          - generic [ref=e378]: Player Stats Available in List View
+          - generic [ref=e379]:
+            - link "Grid View" [ref=e380]:
+              - img "Grid Icon icon" [ref=e381]
+            - link "List View" [ref=e383] [cursor=pointer]:
+              - img "List View icon" [ref=e384]
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - generic [ref=e388]:
+            - generic [ref=e389]: Twins
+            - generic [ref=e390]: "@"
+            - generic [ref=e391]: Guardians
+          - generic [ref=e392]:
+            - generic [ref=e393]: (49-51)
+            - generic [ref=e396]:
+              - time [ref=e398]: Mon, Jul 20 • 6:40 PM EDT
+              - generic [ref=e399]: At Progressive Field
+              - generic [ref=e400]: "TV: Guardians.TV Presented by Progressive, Twins.TV Presented by Progressive"
+            - generic [ref=e401]: (52-48)
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - link "Joe Ryan" [ref=e411] [cursor=pointer]:
+              - /url: /player/joe-ryan-657746
+            - generic [ref=e412]: RHP
+            - generic [ref=e413]: 6-5, 2.85 ERA, 128 SO
+          - generic [ref=e414]:
+            - link "Tanner Bibee" [ref=e419] [cursor=pointer]:
+              - /url: /player/tanner-bibee-676440
+            - generic [ref=e420]: RHP
+            - generic [ref=e421]: 3-9, 3.90 ERA, 87 SO
+        - group [ref=e423]:
+          - link [ref=e425] [cursor=pointer]:
+            - /url: /gameday/824410/preview
+            - button "Recap icon Preview" [ref=e426]:
+              - img "Recap icon" [ref=e428]
+              - generic [ref=e432]: Preview
+          - link [ref=e434] [cursor=pointer]:
+            - /url: https://mlb.tickets.com/?agency=MLB_MPV&orgid=27&pid=9658552
+            - button "Tickets icon Tickets" [ref=e435]:
+              - img "Tickets icon" [ref=e437]
+              - generic [ref=e439]: Tickets
+      - generic [ref=e440]:
+        - generic [ref=e441]:
+          - generic [ref=e442]:
+            - generic [ref=e443]: Pirates
+            - generic [ref=e444]: "@"
+            - generic [ref=e445]: Yankees
+          - generic [ref=e446]:
+            - generic [ref=e447]: (52-48)
+            - generic [ref=e450]:
+              - time [ref=e452]: Mon, Jul 20 • 7:05 PM EDT
+              - generic [ref=e453]: At Yankee Stadium
+              - generic [ref=e454]: "TV: YES, SportsNet Pittsburgh"
+            - generic [ref=e455]: (55-44)
+        - generic [ref=e459]:
+          - generic [ref=e460]:
+            - link "Braxton Ashcraft" [ref=e465] [cursor=pointer]:
+              - /url: /player/braxton-ashcraft-677952
+            - generic [ref=e466]: RHP
+            - generic [ref=e467]: 9-3, 3.49 ERA, 128 SO
+          - generic [ref=e468]:
+            - link "Ryan Weathers" [ref=e473] [cursor=pointer]:
+              - /url: /player/ryan-weathers-677960
+            - generic [ref=e474]: LHP
+            - generic [ref=e475]: 3-7, 4.15 ERA, 110 SO
+        - group [ref=e477]:
+          - link [ref=e479] [cursor=pointer]:
+            - /url: /gameday/823522/preview
+            - button "Recap icon Preview" [ref=e480]:
+              - img "Recap icon" [ref=e482]
+              - generic [ref=e486]: Preview
+          - link [ref=e488] [cursor=pointer]:
+            - /url: https://www.mlb.com/app/ballpark/yankees/tickets/single-game-tickets/2026/home-game-49
+            - button "Tickets icon Tickets" [ref=e489]:
+              - img "Tickets icon" [ref=e491]
+              - generic [ref=e493]: Tickets
+      - generic [ref=e494]:
+        - generic [ref=e495]:
+          - generic [ref=e496]:
+            - generic [ref=e497]: Rays
+            - generic [ref=e498]: "@"
+            - generic [ref=e499]: Blue Jays
+          - generic [ref=e500]:
+            - generic [ref=e501]: (56-42)
+            - generic [ref=e504]:
+              - time [ref=e506]: Mon, Jul 20 • 7:07 PM EDT
+              - generic [ref=e507]: At Rogers Centre
+              - generic [ref=e508]: "TV: Sportsnet, Rays.TV, TVA Sports"
+            - generic [ref=e509]: (46-53)
+        - generic [ref=e513]:
+          - generic [ref=e514]:
+            - link "Nick Martinez" [ref=e519] [cursor=pointer]:
+              - /url: /player/nick-martinez-607259
+            - generic [ref=e520]: RHP
+            - generic [ref=e521]: 8-2, 2.65 ERA, 62 SO
+          - generic [ref=e522]:
+            - link "Dylan Cease" [ref=e527] [cursor=pointer]:
+              - /url: /player/dylan-cease-656302
+            - generic [ref=e528]: RHP
+            - generic [ref=e529]: 6-4, 2.56 ERA, 148 SO
+        - group [ref=e531]:
+          - link [ref=e533] [cursor=pointer]:
+            - /url: /gameday/822788/preview
+            - button "Recap icon Preview" [ref=e534]:
+              - img "Recap icon" [ref=e536]
+              - generic [ref=e540]: Preview
+          - link [ref=e542] [cursor=pointer]:
+            - /url: https://www.ticketmaster.ca/event/1000639185E73C83?artistid=806032&brand=bluejays2&landing=n
+            - button "Tickets icon Tickets" [ref=e543]:
+              - img "Tickets icon" [ref=e545]
+              - generic [ref=e547]: Tickets
+      - generic [ref=e548]:
+        - generic [ref=e549]:
+          - generic [ref=e550]:
+            - generic [ref=e551]: Dodgers
+            - generic [ref=e552]: "@"
+            - generic [ref=e553]: Phillies
+          - generic [ref=e554]:
+            - generic [ref=e555]: (63-37)
+            - generic [ref=e558]:
+              - time [ref=e560]: Mon, Jul 20 • 7:10 PM EDT
+              - generic [ref=e561]: At Citizens Bank Park
+              - generic [ref=e562]: "TV: ESPN/ESPN App"
+            - generic [ref=e563]: (55-45)
+        - generic [ref=e567]:
+          - generic [ref=e568]:
+            - link "Emmet Sheehan" [ref=e573] [cursor=pointer]:
+              - /url: /player/emmet-sheehan-686218
+            - generic [ref=e574]: RHP
+            - generic [ref=e575]: 4-6, 4.81 ERA, 93 SO
+          - generic [ref=e576]:
+            - link "Cristopher Sánchez" [ref=e581] [cursor=pointer]:
+              - /url: /player/cristopher-sanchez-650911
+            - generic [ref=e582]: LHP
+            - generic [ref=e583]: 11-4, 2.62 ERA, 144 SO
+        - group [ref=e585]:
+          - link [ref=e587] [cursor=pointer]:
+            - /url: /gameday/823436/preview
+            - button "Recap icon Preview" [ref=e588]:
+              - img "Recap icon" [ref=e590]
+              - generic [ref=e594]: Preview
+          - link [ref=e596] [cursor=pointer]:
+            - /url: http://mlb.tickets.com/?agency=MLB_MPV&orgid=21&pid=9643154
+            - button "Tickets icon Tickets" [ref=e597]:
+              - img "Tickets icon" [ref=e599]
+              - generic [ref=e601]: Tickets
+      - generic [ref=e602]:
+        - generic [ref=e603]:
+          - generic [ref=e604]:
+            - generic [ref=e605]: Orioles
+            - generic [ref=e606]: "@"
+            - generic [ref=e607]: Red Sox
+          - generic [ref=e608]:
+            - generic [ref=e609]: (49-51)
+            - generic [ref=e612]:
+              - time [ref=e614]: Mon, Jul 20 • 7:10 PM EDT
+              - generic [ref=e615]: At Fenway Park
+              - generic [ref=e616]: "TV: MASN, NESN"
+            - generic [ref=e617]: (50-48)
+        - generic [ref=e621]:
+          - generic [ref=e622]:
+            - link "Shane Baz" [ref=e627] [cursor=pointer]:
+              - /url: /player/shane-baz-669358
+            - generic [ref=e628]: RHP
+            - generic [ref=e629]: 4-9, 4.19 ERA, 99 SO
+          - generic [ref=e630]:
+            - link "Payton Tolle" [ref=e635] [cursor=pointer]:
+              - /url: /player/payton-tolle-801139
+            - generic [ref=e636]: LHP
+            - generic [ref=e637]: 5-6, 3.11 ERA, 87 SO
+        - group [ref=e639]:
+          - link [ref=e641] [cursor=pointer]:
+            - /url: /gameday/824736/preview
+            - button "Recap icon Preview" [ref=e642]:
+              - img "Recap icon" [ref=e644]
+              - generic [ref=e648]: Preview
+          - link [ref=e650] [cursor=pointer]:
+            - /url: https://mlb.tickets.com/?agency=MLB_MPV&orgid=23&pid=9681690
+            - button "Tickets icon Tickets" [ref=e651]:
+              - img "Tickets icon" [ref=e653]
+              - generic [ref=e655]: Tickets
+      - generic [ref=e656]:
+        - generic [ref=e657]:
+          - generic [ref=e658]:
+            - generic [ref=e659]: Padres
+            - generic [ref=e660]: "@"
+            - generic [ref=e661]: Braves
+          - generic [ref=e662]:
+            - generic [ref=e663]: (49-50)
+            - generic [ref=e666]:
+              - time [ref=e668]: Mon, Jul 20 • 7:15 PM EDT
+              - generic [ref=e669]: At Truist Park
+              - generic [ref=e670]: "TV: BravesVision, Padres.TV Presented by UC San Diego Health, Gray TV"
+            - generic [ref=e671]: (57-41)
+        - generic [ref=e675]:
+          - generic [ref=e676]:
+            - link "JP Sears" [ref=e681] [cursor=pointer]:
+              - /url: /player/jp-sears-676664
+            - generic [ref=e682]: LHP
+            - generic [ref=e683]: 2-2, 5.03 ERA, 17 SO
+          - generic [ref=e684]:
+            - link "Bryce Elder" [ref=e689] [cursor=pointer]:
+              - /url: /player/bryce-elder-693821
+            - generic [ref=e690]: RHP
+            - generic [ref=e691]: 5-6, 4.12 ERA, 86 SO
+        - group [ref=e693]:
+          - link [ref=e695] [cursor=pointer]:
+            - /url: /gameday/824898/preview
+            - button "Recap icon Preview" [ref=e696]:
+              - img "Recap icon" [ref=e698]
+              - generic [ref=e702]: Preview
+          - link [ref=e704] [cursor=pointer]:
+            - /url: https://www.ticketmaster.com/event/0E00634DCBC66E97
+            - button "Tickets icon Tickets" [ref=e705]:
+              - img "Tickets icon" [ref=e707]
+              - generic [ref=e709]: Tickets
+      - generic [ref=e710]:
+        - generic [ref=e711]:
+          - generic [ref=e712]:
+            - generic [ref=e713]: Mets
+            - generic [ref=e714]: "@"
+            - generic [ref=e715]: Brewers
+          - generic [ref=e716]:
+            - generic [ref=e717]: (42-58)
+            - generic [ref=e720]:
+              - time [ref=e722]: Mon, Jul 20 • 7:40 PM EDT
+              - generic [ref=e723]: At American Family Field
+              - generic [ref=e724]: "TV: SNY, Brewers.TV Presented by Potawatomi Sportsbook"
+            - generic [ref=e725]: (62-37)
+        - generic [ref=e729]:
+          - generic [ref=e730]:
+            - link "Freddy Peralta" [ref=e735] [cursor=pointer]:
+              - /url: /player/freddy-peralta-642547
+            - generic [ref=e736]: RHP
+            - generic [ref=e737]: 5-8, 4.66 ERA, 104 SO
+          - generic [ref=e738]:
+            - link "Jacob Misiorowski" [ref=e743] [cursor=pointer]:
+              - /url: /player/jacob-misiorowski-694819
+            - generic [ref=e744]: RHP
+            - generic [ref=e745]: 10-4, 1.62 ERA, 167 SO
+        - group [ref=e747]:
+          - link [ref=e749] [cursor=pointer]:
+            - /url: /gameday/823762/preview
+            - button "Recap icon Preview" [ref=e750]:
+              - img "Recap icon" [ref=e752]
+              - generic [ref=e756]: Preview
+          - link [ref=e758] [cursor=pointer]:
+            - /url: https://mlb.tickets.com/?agency=MLB_MPV&orgid=4&pid=9641381
+            - button "Tickets icon Tickets" [ref=e759]:
+              - img "Tickets icon" [ref=e761]
+              - generic [ref=e763]: Tickets
+      - generic [ref=e764]:
+        - generic [ref=e765]:
+          - generic [ref=e766]:
+            - generic [ref=e767]: Giants
+            - generic [ref=e768]: "@"
+            - generic [ref=e769]: Royals
+          - generic [ref=e770]:
+            - generic [ref=e771]: (42-57)
+            - generic [ref=e774]:
+              - time [ref=e776]: Mon, Jul 20 • 7:40 PM EDT
+              - generic [ref=e777]: At Kauffman Stadium
+              - generic [ref=e778]: "TV: NBCS BA, Royals.TV"
+            - generic [ref=e779]: (40-60)
+        - generic [ref=e783]:
+          - generic [ref=e784]:
+            - link "Trevor McDonald" [ref=e789] [cursor=pointer]:
+              - /url: /player/trevor-mcdonald-686790
+            - generic [ref=e790]: RHP
+            - generic [ref=e791]: 3-7, 5.02 ERA, 54 SO
+          - generic [ref=e792]:
+            - link "Michael Wacha" [ref=e797] [cursor=pointer]:
+              - /url: /player/michael-wacha-608379
+            - generic [ref=e798]: RHP
+            - generic [ref=e799]: 5-7, 3.77 ERA, 96 SO
+        - group [ref=e801]:
+          - link [ref=e803] [cursor=pointer]:
+            - /url: /gameday/824087/preview
+            - button "Recap icon Preview" [ref=e804]:
+              - img "Recap icon" [ref=e806]
+              - generic [ref=e810]: Preview
+          - link [ref=e812] [cursor=pointer]:
+            - /url: https://mlb.tickets.com/?agency=MLB_MPV&orgid=11&pid=9609652
+            - button "Tickets icon Tickets" [ref=e813]:
+              - img "Tickets icon" [ref=e815]
+              - generic [ref=e817]: Tickets
+      - generic [ref=e818]:
+        - generic [ref=e819]:
+          - generic [ref=e820]:
+            - generic [ref=e821]: White Sox
+            - generic [ref=e822]: "@"
+            - generic [ref=e823]: Rangers
+          - generic [ref=e824]:
+            - generic [ref=e825]: (52-46)
+            - generic [ref=e828]:
+              - time [ref=e830]: Mon, Jul 20 • 8:05 PM EDT
+              - generic [ref=e831]: At Globe Life Field
+              - generic [ref=e832]: "TV: Rangers Sports Network, presented by Progressive, Chicago Sports Network"
+            - generic [ref=e833]: (50-49)
+        - generic [ref=e837]:
+          - generic [ref=e838]:
+            - link "Erick Fedde" [ref=e843] [cursor=pointer]:
+              - /url: /player/erick-fedde-607200
+            - generic [ref=e844]: RHP
+            - generic [ref=e845]: 5-6, 4.15 ERA, 60 SO
+          - generic [ref=e846]:
+            - link "Jacob deGrom" [ref=e851] [cursor=pointer]:
+              - /url: /player/jacob-degrom-594798
+            - generic [ref=e852]: RHP
+            - generic [ref=e853]: 7-5, 3.49 ERA, 122 SO
+        - group [ref=e855]:
+          - link [ref=e857] [cursor=pointer]:
+            - /url: /gameday/822874/preview
+            - button "Recap icon Preview" [ref=e858]:
+              - img "Recap icon" [ref=e860]
+              - generic [ref=e864]: Preview
+          - link [ref=e866] [cursor=pointer]:
+            - /url: https://mlb.tickets.com/?agency=MLB_MPV&orgid=3&pid=9647001
+            - button "Tickets icon Tickets" [ref=e867]:
+              - img "Tickets icon" [ref=e869]
+              - generic [ref=e871]: Tickets
+      - generic [ref=e872]:
+        - generic [ref=e873]:
+          - generic [ref=e874]:
+            - generic [ref=e875]: Tigers
+            - generic [ref=e876]: "@"
+            - generic [ref=e877]: Cubs
+          - generic [ref=e878]:
+            - generic [ref=e879]: (46-53)
+            - generic [ref=e882]:
+              - time [ref=e884]: Mon, Jul 20 • 8:05 PM EDT
+              - generic [ref=e885]: At Wrigley Field
+              - generic [ref=e886]: "TV: Marquee Sports Network, Detroit SportsNet"
+            - generic [ref=e887]: (56-43)
+        - generic [ref=e891]:
+          - generic [ref=e892]:
+            - link "Jack Flaherty" [ref=e897] [cursor=pointer]:
+              - /url: /player/jack-flaherty-656427
+            - generic [ref=e898]: RHP
+            - generic [ref=e899]: 3-8, 4.48 ERA, 98 SO
+          - generic [ref=e900]:
+            - link "Jameson Taillon" [ref=e905] [cursor=pointer]:
+              - /url: /player/jameson-taillon-592791
+            - generic [ref=e906]: RHP
+            - generic [ref=e907]: 2-5, 5.19 ERA, 59 SO
+        - group [ref=e909]:
+          - link [ref=e911] [cursor=pointer]:
+            - /url: /gameday/824654/preview
+            - button "Recap icon Preview" [ref=e912]:
+              - img "Recap icon" [ref=e914]
+              - generic [ref=e918]: Preview
+          - link [ref=e920] [cursor=pointer]:
+            - /url: https://mlb.tickets.com/?orgid=5&agency=MLB_MPV&pid=9642662
+            - button "Tickets icon Tickets" [ref=e921]:
+              - img "Tickets icon" [ref=e923]
+              - generic [ref=e925]: Tickets
+      - generic [ref=e926]:
+        - generic [ref=e927]:
+          - generic [ref=e928]:
+            - generic [ref=e929]: Marlins
+            - generic [ref=e930]: "@"
+            - generic [ref=e931]: Astros
+          - generic [ref=e932]:
+            - generic [ref=e933]: (52-48)
+            - generic [ref=e936]:
+              - time [ref=e938]: Mon, Jul 20 • 8:10 PM EDT
+              - generic [ref=e939]: At Daikin Park
+              - generic [ref=e940]: "TV: Space City Home Network, Marlins.TV presented by Werner, Hoffman, Greig & Garcia"
+            - generic [ref=e941]: (47-54)
+        - generic [ref=e945]:
+          - generic [ref=e946]:
+            - link "Janson Junk" [ref=e951] [cursor=pointer]:
+              - /url: /player/janson-junk-676083
+            - generic [ref=e952]: RHP
+            - generic [ref=e953]: 4-5, 4.57 ERA, 48 SO
+          - generic [ref=e954]:
+            - link "Ronel Blanco" [ref=e959] [cursor=pointer]:
+              - /url: /player/ronel-blanco-669854
+            - generic [ref=e960]: RHP
+            - generic [ref=e961]: 0-0, -.-- ERA, 0 SO
+        - group [ref=e963]:
+          - link [ref=e965] [cursor=pointer]:
+            - /url: /gameday/824167/preview
+            - button "Recap icon Preview" [ref=e966]:
+              - img "Recap icon" [ref=e968]
+              - generic [ref=e972]: Preview
+          - link [ref=e974] [cursor=pointer]:
+            - /url: https://mlb.tickets.com/?agency=MLB_MPV&orgid=18&pid=9652527
+            - button "Tickets icon Tickets" [ref=e975]:
+              - img "Tickets icon" [ref=e977]
+              - generic [ref=e979]: Tickets
+      - generic [ref=e980]:
+        - generic [ref=e981]:
+          - generic [ref=e982]:
+            - generic [ref=e983]: Nationals
+            - generic [ref=e984]: "@"
+            - generic [ref=e985]: Rockies
+          - generic [ref=e986]:
+            - generic [ref=e987]: (50-50)
+            - generic [ref=e990]:
+              - time [ref=e992]: Mon, Jul 20 • 8:40 PM EDT
+              - generic [ref=e993]: At Coors Field
+              - generic [ref=e994]: "TV: Rockies.TV, Nationals.TV"
+            - generic [ref=e995]: (40-61)
+        - generic [ref=e999]:
+          - generic [ref=e1000]:
+            - link "Andrew Alvarez" [ref=e1005] [cursor=pointer]:
+              - /url: /player/andrew-alvarez-674841
+            - generic [ref=e1006]: LHP
+            - generic [ref=e1007]: 2-3, 4.04 ERA, 53 SO
+          - generic [ref=e1008]:
+            - link "Kyle Freeland" [ref=e1013] [cursor=pointer]:
+              - /url: /player/kyle-freeland-607536
+            - generic [ref=e1014]: LHP
+            - generic [ref=e1015]: 2-8, 7.36 ERA, 79 SO
+        - group [ref=e1017]:
+          - link [ref=e1019] [cursor=pointer]:
+            - /url: /gameday/824328/preview
+            - button "Recap icon Preview" [ref=e1020]:
+              - img "Recap icon" [ref=e1022]
+              - generic [ref=e1026]: Preview
+          - link [ref=e1028] [cursor=pointer]:
+            - /url: https://www.ticketmaster.com/event/1E00636AD37690BC
+            - button "Tickets icon Tickets" [ref=e1029]:
+              - img "Tickets icon" [ref=e1031]
+              - generic [ref=e1033]: Tickets
+      - generic [ref=e1034]:
+        - generic [ref=e1035]:
+          - generic [ref=e1036]:
+            - generic [ref=e1037]: Reds
+            - generic [ref=e1038]: "@"
+            - generic [ref=e1039]: Mariners
+          - generic [ref=e1040]:
+            - generic [ref=e1041]: (45-53)
+            - generic [ref=e1044]:
+              - time [ref=e1046]: Mon, Jul 20 • 9:40 PM EDT
+              - generic [ref=e1047]: At T-Mobile Park
+              - generic [ref=e1048]: "TV: Reds.TV, Mariners.TV, Gray Media, WXIX FOX19"
+            - generic [ref=e1049]: (50-50)
+        - generic [ref=e1053]:
+          - generic [ref=e1054]:
+            - link "Andrew Abbott" [ref=e1059] [cursor=pointer]:
+              - /url: /player/andrew-abbott-671096
+            - generic [ref=e1060]: LHP
+            - generic [ref=e1061]: 5-5, 4.11 ERA, 84 SO
+          - generic [ref=e1062]:
+            - link "George Kirby" [ref=e1067] [cursor=pointer]:
+              - /url: /player/george-kirby-669923
+            - generic [ref=e1068]: RHP
+            - generic [ref=e1069]: 7-8, 3.76 ERA, 98 SO
+        - group [ref=e1071]:
+          - link [ref=e1073] [cursor=pointer]:
+            - /url: /gameday/823112/preview
+            - button "Recap icon Preview" [ref=e1074]:
+              - img "Recap icon" [ref=e1076]
+              - generic [ref=e1080]: Preview
+          - link [ref=e1082] [cursor=pointer]:
+            - /url: https://www.ticketmaster.com/seattle-mariners-vs-cincinnati-reds-seattle-washington-07-20-2026/event/0F00635BEEA47303
+            - button "Tickets icon Tickets" [ref=e1083]:
+              - img "Tickets icon" [ref=e1085]
+              - generic [ref=e1087]: Tickets
+      - generic [ref=e1088]:
+        - generic [ref=e1089]:
+          - generic [ref=e1090]:
+            - generic [ref=e1091]: Athletics
+            - generic [ref=e1092]: "@"
+            - generic [ref=e1093]: D-backs
+          - generic [ref=e1094]:
+            - generic [ref=e1095]: (42-57)
+            - generic [ref=e1098]:
+              - time [ref=e1100]: Mon, Jul 20 • 9:40 PM EDT
+              - generic [ref=e1101]: At Chase Field
+              - generic [ref=e1102]: "TV: NBCSCA, DBACKS.TV"
+            - generic [ref=e1103]: (51-48)
+        - generic [ref=e1107]:
+          - generic [ref=e1108]:
+            - link "Jeffrey Springs" [ref=e1113] [cursor=pointer]:
+              - /url: /player/jeffrey-springs-605488
+            - generic [ref=e1114]: LHP
+            - generic [ref=e1115]: 3-9, 6.08 ERA, 84 SO
+          - generic [ref=e1116]:
+            - link "Mitch Bratt" [ref=e1121] [cursor=pointer]:
+              - /url: /player/mitch-bratt-683352
+            - generic [ref=e1122]: LHP
+            - generic [ref=e1123]: 0-0, 6.00 ERA, 3 SO
+        - group [ref=e1125]:
+          - link [ref=e1127] [cursor=pointer]:
+            - /url: /gameday/825058/preview
+            - button "Recap icon Preview" [ref=e1128]:
+              - img "Recap icon" [ref=e1130]
+              - generic [ref=e1134]: Preview
+          - link [ref=e1136] [cursor=pointer]:
+            - /url: https://www.ticketmaster.com/event/1900642CC2E8552C
+            - button "Tickets icon Tickets" [ref=e1137]:
+              - img "Tickets icon" [ref=e1139]
+              - generic [ref=e1141]: Tickets
+      - generic [ref=e1142]:
+        - generic [ref=e1143]:
+          - generic [ref=e1144]:
+            - generic [ref=e1145]: Cardinals
+            - generic [ref=e1146]: "@"
+            - generic [ref=e1147]: Angels
+          - generic [ref=e1148]:
+            - generic [ref=e1149]: (51-47)
+            - generic [ref=e1152]:
+              - time [ref=e1154]: Mon, Jul 20 • 10:10 PM EDT
+              - generic [ref=e1155]: At Angel Stadium
+              - generic [ref=e1156]: "TV: ESPN/ESPN App"
+            - generic [ref=e1157]: (39-61)
+        - generic [ref=e1161]:
+          - generic [ref=e1162]:
+            - link "Kyle Leahy" [ref=e1167] [cursor=pointer]:
+              - /url: /player/kyle-leahy-681517
+            - generic [ref=e1168]: RHP
+            - generic [ref=e1169]: 7-4, 3.73 ERA, 75 SO
+          - generic [ref=e1170]:
+            - link "José Soriano" [ref=e1175] [cursor=pointer]:
+              - /url: /player/jose-soriano-667755
+            - generic [ref=e1176]: RHP
+            - generic [ref=e1177]: 8-6, 3.49 ERA, 115 SO
+        - group [ref=e1179]:
+          - link [ref=e1181] [cursor=pointer]:
+            - /url: /gameday/824006/preview
+            - button "Recap icon Preview" [ref=e1182]:
+              - img "Recap icon" [ref=e1184]
+              - generic [ref=e1188]: Preview
+          - link [ref=e1190] [cursor=pointer]:
+            - /url: https://www.mlb.com/app/ballpark/angels/tickets/single-game-tickets/home-game-50/public
+            - button "Tickets icon Tickets" [ref=e1191]:
+              - img "Tickets icon" [ref=e1193]
+              - generic [ref=e1195]: Tickets
+  - contentinfo [ref=e1197]:
+    - list [ref=e1199]:
+      - listitem [ref=e1200]:
+        - button "OFFICIAL INFORMATION" [ref=e1201]
+      - listitem [ref=e1202]:
+        - button "HELP/CONTACT US" [ref=e1203]
+      - listitem [ref=e1204]:
+        - button "MORE MLB SITES & AFFILIATES" [ref=e1205]
+      - listitem [ref=e1206]:
+        - button "CAREERS" [ref=e1207]
+    - generic [ref=e1209]:
+      - list [ref=e1211]:
+        - listitem [ref=e1212]:
+          - link "MLB.com" [ref=e1213] [cursor=pointer]:
+            - /url: /
+            - img "MLB.com" [ref=e1214]
+        - listitem [ref=e1215]:
+          - link [ref=e1216] [cursor=pointer]:
+            - /url: https://www.bgca.org/about-us/our-partners/mlb
+            - img "Boys and Girls Club of America" [ref=e1217]
+      - generic [ref=e1218]:
+        - list [ref=e1219]:
+          - listitem [ref=e1220]:
+            - link "Terms of Use" [ref=e1221] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information/terms-of-use
+          - listitem [ref=e1222]:
+            - link "Privacy Policy" [ref=e1223] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information/privacy-policy
+          - listitem [ref=e1224]:
+            - link "Legal Notices" [ref=e1225] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information/legal-notices
+          - listitem [ref=e1226]:
+            - link "Contact Us" [ref=e1227] [cursor=pointer]:
+              - /url: https://support.mlb.com/s/
+          - listitem [ref=e1228]:
+            - link "Do not Sell or Share My Personal Data" [ref=e1229] [cursor=pointer]:
+              - /url: https://privacyportal.onetrust.com/webform/53a301ae-6882-46f9-af93-24f64f792aee/3251a424-8286-4725-9313-603f12c85a49
+          - listitem [ref=e1230]:
+            - button "Cookie Settings" [ref=e1231] [cursor=pointer]
+        - generic [ref=e1232]: © 2026 MLB Advanced Media, LP. All rights reserved.
+  - iframe
+  - dialog "Privacy" [ref=e1236]:
+    - generic [ref=e1238]:
+      - generic [ref=e1241]:
+        - text: We store cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. By continuing to use our services, you agree to the
+        - link "MLB Privacy Policy" [active] [ref=e1242] [cursor=pointer]:
+          - /url: https://www.mlb.com/official-information/privacy-policy
+        - text: and
+        - link "Terms of Use Agreement" [ref=e1243] [cursor=pointer]:
+          - /url: https://www.mlb.com/official-information/terms-of-use
+        - text: .
+      - generic [ref=e1245]:
+        - button "Cookies Settings, Opens the preference center dialog" [ref=e1246] [cursor=pointer]: Cookies Settings
+        - button "OK" [ref=e1247] [cursor=pointer]
+    - button "Close" [ref=e1249] [cursor=pointer]

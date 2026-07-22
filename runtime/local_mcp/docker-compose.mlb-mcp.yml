@@ -1,0 +1,11 @@
+services:
+  mlb-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mlb-mcp
+    container_name: mlb-mcp
+    ports:
+      - "8000:8000"
+    environment:
+      - TZ=Asia/Taipei
+    restart: unless-stopped

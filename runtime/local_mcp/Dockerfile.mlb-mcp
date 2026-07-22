@@ -1,0 +1,26 @@
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    TZ=Asia/Taipei
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends git curl ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /opt
+
+# Install from the GitHub source requested by user.
+RUN python -m pip install --upgrade pip \
+    && python -m pip install git+https://github.com/guillochon/mlb-api-mcp.git
+
+# Keep a lightweight source copy for stable runtime entrypoint.
+RUN git clone --depth 1 https://github.com/guillochon/mlb-api-mcp.git /opt/mlb-api-mcp
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
+  CMD curl -fsS http://127.0.0.1:8000/health || exit 1
+
+CMD ["python", "/opt/mlb-api-mcp/main.py", "--http", "--port", "8000"]

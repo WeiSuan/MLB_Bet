@@ -1,0 +1,65 @@
+{
+  "TEX": {
+    "home_away": "home",
+    "starting_pitcher": "",
+    "roster": [
+      {
+        "name": "Burger",
+        "position": "1B"
+      },
+      {
+        "name": "Carter",
+        "position": "CF"
+      },
+      {
+        "name": "Cauley",
+        "position": "SS"
+      },
+      {
+        "name": "Duran, E",
+        "position": "SS"
+      },
+      {
+        "name": "Díaz, E",
+        "position": "C"
+      },
+      {
+        "name": "Foscue",
+        "position": "2B"
+      },
+      {
+        "name": "Higashioka",
+        "position": "C"
+      },
+      {
+        "name": "Jung, Jo",
+        "position": "3B"
+      },
+      {
+        "name": "Langford",
+        "position": "LF"
+      },
+      {
+        "name": "Lopez, N",
+        "position": "2B"
+      },
+      {
+        "name": "Nimmo",
+        "position": "RF"
+      },
+      {
+        "name": "Osuna, A",
+        "position": "LF"
+      },
+      {
+        "name": "Pederson",
+        "position": "DH"
+      }
+    ]
+  },
+  "CWS": {
+    "home_away": "away",
+    "starting_pitcher": "Schultz",
+    "roster": []
+  }
+}

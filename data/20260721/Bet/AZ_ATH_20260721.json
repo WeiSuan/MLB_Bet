@@ -1,0 +1,17 @@
+{
+  "scraped_at": "2026-07-21T01:40:05",
+  "source": "Taiwan Sports Lottery",
+  "source_url": "https://www.sportslottery.com.tw/sportsbook/sport/%E6%A3%92%E7%90%83/%E7%BE%8E%E5%9C%8B/%E7%BE%8E%E5%9C%8B%E8%81%B7%E6%A3%92/event/3478751.1",
+  "sport": "Baseball",
+  "date": "20260721",
+  "home_team": {
+    "name": "亞歷桑那響尾蛇",
+    "abbr": "AZ"
+  },
+  "away_team": {
+    "name": "運動家",
+    "abbr": "ATH"
+  },
+  "markets": [],
+  "odds_available": false
+}

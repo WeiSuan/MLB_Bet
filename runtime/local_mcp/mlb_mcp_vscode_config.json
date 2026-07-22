@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--headless",
+        "--browser",
+        "msedge",
+        "--isolated"
+      ]
+    },
+    "mlb-mcp-http": {
+      "url": "http://localhost:8000/mcp/"
+    }
+  }
+}

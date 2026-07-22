@@ -1,0 +1,464 @@
+- generic [ref=e1]:
+  - img:
+    - generic "Globe icon"
+    - generic "Login icon"
+    - generic "Recap icon"
+    - generic "Search icon"
+    - generic "Tickets icon"
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "Major League Baseball" [ref=e11] [cursor=pointer]:
+            - /url: https://www.mlb.com/
+            - img "Major League Baseball" [ref=e13]
+          - link "gameday" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img "Gameday" [ref=e16]
+          - button "audio links" [ref=e22] [cursor=pointer]
+        - generic [ref=e25]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - link "Pirates" [ref=e32] [cursor=pointer]:
+                - /url: /pirates
+                - generic [ref=e35]:
+                  - generic [ref=e36]: Pirates
+                  - generic [ref=e37]: 52 - 48
+                  - generic [ref=e38]: 4th NL Central
+              - generic [ref=e39]:
+                - generic [ref=e40]: July 20, 2026
+                - generic [ref=e41]: 7:05 PM EDT
+              - link "Yankees" [ref=e45] [cursor=pointer]:
+                - /url: /yankees
+                - generic [ref=e48]:
+                  - generic [ref=e49]: Yankees
+                  - generic [ref=e50]: 55 - 44
+                  - generic [ref=e51]: 2nd AL East
+            - generic [ref=e52]:
+              - generic [ref=e53]: Yankee Stadium
+              - generic [ref=e54]: •
+              - generic [ref=e55]: Bronx, NY
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]: Follow the Game
+                - generic [ref=e60]:
+                  - generic [ref=e61]:
+                    - generic [ref=e62]: Watch
+                    - generic [ref=e63]: Yankees - YES
+                    - generic [ref=e64]: Pirates - SportsNet Pittsburgh
+                  - generic [ref=e65]:
+                    - generic [ref=e66]: Listen
+                    - generic [ref=e67]: Yankees - WFAN 660/101.9 FM, WADO 1280
+                    - generic [ref=e68]: Pirates - Sports Radio 93.7 KDKA The Fan
+                - link "Buy Tickets" [ref=e70] [cursor=pointer]:
+                  - /url: https://www.mlb.com/app/ballpark/yankees/tickets/single-game-tickets/2026/home-game-49?tfl=affiliateId=tdl-Major_League_Baseball-gameday-Major_League_Baseball:_Gameday:_Preview-Gameday-x0-Desktop-Landscape
+                  - button "Buy Tickets" [ref=e71]
+              - generic [ref=e73]:
+                - generic [ref=e74]: Probable Pitchers
+                - generic [ref=e77]:
+                  - 'link "View Braxton Ashcraft''s player page. Season stats: 9 w, 3 l, 3.49 ERA, 128 K." [ref=e78] [cursor=pointer]':
+                    - /url: https://www.mlb.com/player/677952
+                    - generic [ref=e79]:
+                      - img "Ashcraft, B" [ref=e84]
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Ashcraft, B
+                        - generic [ref=e88]:
+                          - generic [ref=e89]:
+                            - text: RHP|
+                            - generic [ref=e90]: "#35"
+                          - generic [ref=e91]:
+                            - generic [ref=e92]: 9 - 3
+                            - text: "|"
+                            - generic [ref=e93]: 3.49 ERA
+                            - generic [ref=e94]: 128 K
+                  - generic [ref=e95]: VS.
+                  - 'link "View Ryan Weathers''s player page. Season stats: 3 w, 7 l, 4.15 ERA, 110 K." [ref=e97] [cursor=pointer]':
+                    - /url: https://www.mlb.com/player/677960
+                    - generic [ref=e98]:
+                      - img "Weathers" [ref=e103]
+                      - generic [ref=e104]:
+                        - generic [ref=e105]: Weathers
+                        - generic [ref=e107]:
+                          - generic [ref=e108]:
+                            - text: LHP|
+                            - generic [ref=e109]: "#40"
+                          - generic [ref=e110]:
+                            - generic [ref=e111]: 3 - 7
+                            - text: "|"
+                            - generic [ref=e112]: 4.15 ERA
+                            - generic [ref=e113]: 110 K
+            - generic [ref=e115]:
+              - button "Matchups selected" [pressed] [ref=e118]:
+                - generic [ref=e119]: Matchups
+              - generic [ref=e121]:
+                - table [ref=e126]:
+                  - rowgroup [ref=e127]:
+                    - row [ref=e128]:
+                      - columnheader "NYY vs. Ashcraft" [ref=e129]:
+                        - generic [ref=e130]:
+                          - generic [ref=e131]: NYY
+                          - generic [ref=e132]: vs.
+                          - generic [ref=e133]: Ashcraft
+                      - columnheader "HR" [ref=e134]
+                      - columnheader "RBI" [ref=e135]
+                      - columnheader "AB" [ref=e136]
+                      - columnheader "AVG" [ref=e137]
+                      - columnheader "OPS" [ref=e138]
+                  - rowgroup [ref=e139]:
+                    - row [ref=e140]:
+                      - cell [ref=e141]:
+                        - generic [ref=e142]:
+                          - link "Bellinger" [ref=e144] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/641355
+                          - text: LF
+                      - cell "-" [ref=e145]
+                      - cell "-" [ref=e146]
+                      - cell "-" [ref=e147]
+                      - cell "-" [ref=e148]
+                      - cell "-" [ref=e149]
+                    - row [ref=e150]:
+                      - cell [ref=e151]:
+                        - generic [ref=e152]:
+                          - link "Caballero" [ref=e154] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/676609
+                          - text: SS
+                      - cell "-" [ref=e155]
+                      - cell "-" [ref=e156]
+                      - cell "-" [ref=e157]
+                      - cell "-" [ref=e158]
+                      - cell "-" [ref=e159]
+                    - row [ref=e160]:
+                      - cell [ref=e161]:
+                        - generic [ref=e162]:
+                          - link "Chisholm Jr." [ref=e164] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/665862
+                          - text: 2B
+                      - cell "-" [ref=e165]
+                      - cell "-" [ref=e166]
+                      - cell "-" [ref=e167]
+                      - cell "-" [ref=e168]
+                      - cell "-" [ref=e169]
+                    - row [ref=e170]:
+                      - cell [ref=e171]:
+                        - generic [ref=e172]:
+                          - link "Domínguez" [ref=e174] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/691176
+                          - text: RF
+                      - cell "-" [ref=e175]
+                      - cell "-" [ref=e176]
+                      - cell "-" [ref=e177]
+                      - cell "-" [ref=e178]
+                      - cell "-" [ref=e179]
+                    - row [ref=e180]:
+                      - cell [ref=e181]:
+                        - generic [ref=e182]:
+                          - link "Goldschmidt" [ref=e184] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/502671
+                          - text: 1B
+                      - cell "-" [ref=e185]
+                      - cell "-" [ref=e186]
+                      - cell "-" [ref=e187]
+                      - cell "-" [ref=e188]
+                      - cell "-" [ref=e189]
+                    - row [ref=e190]:
+                      - cell [ref=e191]:
+                        - generic [ref=e192]:
+                          - link "Grisham" [ref=e194] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/663757
+                          - text: CF
+                      - cell "-" [ref=e195]
+                      - cell "-" [ref=e196]
+                      - cell "-" [ref=e197]
+                      - cell "-" [ref=e198]
+                      - cell "-" [ref=e199]
+                    - row [ref=e200]:
+                      - cell [ref=e201]:
+                        - generic [ref=e202]:
+                          - link "McMahon" [ref=e204] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/641857
+                          - text: 3B
+                      - cell "-" [ref=e205]
+                      - cell "-" [ref=e206]
+                      - cell "-" [ref=e207]
+                      - cell "-" [ref=e208]
+                      - cell "-" [ref=e209]
+                    - row [ref=e210]:
+                      - cell [ref=e211]:
+                        - generic [ref=e212]:
+                          - link "Rice" [ref=e214] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/700250
+                          - text: 1B
+                      - cell "-" [ref=e215]
+                      - cell "-" [ref=e216]
+                      - cell "-" [ref=e217]
+                      - cell "-" [ref=e218]
+                      - cell "-" [ref=e219]
+                    - row [ref=e220]:
+                      - cell [ref=e221]:
+                        - generic [ref=e222]:
+                          - link "Rosario, A" [ref=e224] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/642708
+                          - text: 3B
+                      - cell "-" [ref=e225]
+                      - cell "-" [ref=e226]
+                      - cell "-" [ref=e227]
+                      - cell "-" [ref=e228]
+                      - cell "-" [ref=e229]
+                    - row [ref=e230]:
+                      - cell [ref=e231]:
+                        - generic [ref=e232]:
+                          - link "Schuemann" [ref=e234] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/680474
+                          - text: SS
+                      - cell "-" [ref=e235]
+                      - cell "-" [ref=e236]
+                      - cell "-" [ref=e237]
+                      - cell "-" [ref=e238]
+                      - cell "-" [ref=e239]
+                    - row [ref=e240]:
+                      - cell [ref=e241]:
+                        - generic [ref=e242]:
+                          - link "Sánchez, A" [ref=e244] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/645305
+                          - text: C
+                      - cell "-" [ref=e245]
+                      - cell "-" [ref=e246]
+                      - cell "-" [ref=e247]
+                      - cell "-" [ref=e248]
+                      - cell "-" [ref=e249]
+                    - row [ref=e250]:
+                      - cell [ref=e251]:
+                        - generic [ref=e252]:
+                          - link "Volpe" [ref=e254] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/683011
+                          - text: SS
+                      - cell "-" [ref=e255]
+                      - cell "-" [ref=e256]
+                      - cell "-" [ref=e257]
+                      - cell "-" [ref=e258]
+                      - cell "-" [ref=e259]
+                    - row [ref=e260]:
+                      - cell [ref=e261]:
+                        - generic [ref=e262]:
+                          - link "Wells, A" [ref=e264] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/669224
+                          - text: C
+                      - cell "-" [ref=e265]
+                      - cell "-" [ref=e266]
+                      - cell "-" [ref=e267]
+                      - cell "-" [ref=e268]
+                      - cell "-" [ref=e269]
+                - table [ref=e274]:
+                  - rowgroup [ref=e275]:
+                    - row [ref=e276]:
+                      - columnheader "PIT vs. Weathers" [ref=e277]:
+                        - generic [ref=e278]:
+                          - generic [ref=e279]: PIT
+                          - generic [ref=e280]: vs.
+                          - generic [ref=e281]: Weathers
+                      - columnheader "HR" [ref=e282]
+                      - columnheader "RBI" [ref=e283]
+                      - columnheader "AB" [ref=e284]
+                      - columnheader "AVG" [ref=e285]
+                      - columnheader "OPS" [ref=e286]
+                  - rowgroup [ref=e287]:
+                    - row [ref=e288]:
+                      - cell [ref=e289]:
+                        - generic [ref=e290]:
+                          - link "Callihan, T" [ref=e292] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/682997
+                          - text: LF
+                      - cell "-" [ref=e293]
+                      - cell "-" [ref=e294]
+                      - cell "-" [ref=e295]
+                      - cell "-" [ref=e296]
+                      - cell "-" [ref=e297]
+                    - row [ref=e298]:
+                      - cell [ref=e299]:
+                        - generic [ref=e300]:
+                          - link "Cook, B" [ref=e302] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/695257
+                          - text: RF
+                      - cell "-" [ref=e303]
+                      - cell "-" [ref=e304]
+                      - cell "-" [ref=e305]
+                      - cell "-" [ref=e306]
+                      - cell "-" [ref=e307]
+                    - row [ref=e308]:
+                      - cell [ref=e309]:
+                        - generic [ref=e310]:
+                          - link "Davis, H" [ref=e312] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/680779
+                          - text: C
+                      - cell "0" [ref=e313]
+                      - cell "0" [ref=e314]
+                      - cell "2" [ref=e315]
+                      - cell ".000" [ref=e316]
+                      - cell ".500" [ref=e317]
+                    - row [ref=e318]:
+                      - cell [ref=e319]:
+                        - generic [ref=e320]:
+                          - link "Flores Jr." [ref=e322] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/804668
+                          - text: C
+                      - cell "-" [ref=e323]
+                      - cell "-" [ref=e324]
+                      - cell "-" [ref=e325]
+                      - cell "-" [ref=e326]
+                      - cell "-" [ref=e327]
+                    - row [ref=e328]:
+                      - cell [ref=e329]:
+                        - generic [ref=e330]:
+                          - link "Gonzales, N" [ref=e332] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/693304
+                          - text: 3B
+                      - cell "0" [ref=e333]
+                      - cell "0" [ref=e334]
+                      - cell "2" [ref=e335]
+                      - cell ".000" [ref=e336]
+                      - cell ".000" [ref=e337]
+                    - row [ref=e338]:
+                      - cell [ref=e339]:
+                        - generic [ref=e340]:
+                          - link "Gonzalez, J" [ref=e342] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/694378
+                          - text: 1B
+                      - cell "-" [ref=e343]
+                      - cell "-" [ref=e344]
+                      - cell "-" [ref=e345]
+                      - cell "-" [ref=e346]
+                      - cell "-" [ref=e347]
+                    - row [ref=e348]:
+                      - cell [ref=e349]:
+                        - generic [ref=e350]:
+                          - link "Lowe, B" [ref=e352] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/664040
+                          - text: 2B
+                      - cell "0" [ref=e353]
+                      - cell "0" [ref=e354]
+                      - cell "2" [ref=e355]
+                      - cell ".000" [ref=e356]
+                      - cell ".000" [ref=e357]
+                    - row [ref=e358]:
+                      - cell [ref=e359]:
+                        - generic [ref=e360]:
+                          - link "Mangum" [ref=e362] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/663968
+                          - text: CF
+                      - cell "0" [ref=e363]
+                      - cell "0" [ref=e364]
+                      - cell "1" [ref=e365]
+                      - cell ".000" [ref=e366]
+                      - cell ".000" [ref=e367]
+                    - row [ref=e368]:
+                      - cell [ref=e369]:
+                        - generic [ref=e370]:
+                          - link "O'Hearn" [ref=e372] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/656811
+                          - text: RF
+                      - cell "-" [ref=e373]
+                      - cell "-" [ref=e374]
+                      - cell "-" [ref=e375]
+                      - cell "-" [ref=e376]
+                      - cell "-" [ref=e377]
+                    - row [ref=e378]:
+                      - cell [ref=e379]:
+                        - generic [ref=e380]:
+                          - link "Ozuna" [ref=e382] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/542303
+                          - text: DH
+                      - cell "0" [ref=e383]
+                      - cell "0" [ref=e384]
+                      - cell "4" [ref=e385]
+                      - cell ".250" [ref=e386]
+                      - cell ".900" [ref=e387]
+                    - row [ref=e388]:
+                      - cell [ref=e389]:
+                        - generic [ref=e390]:
+                          - link "Reynolds, B" [ref=e392] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/668804
+                          - text: LF
+                      - cell "0" [ref=e393]
+                      - cell "1" [ref=e394]
+                      - cell "4" [ref=e395]
+                      - cell ".750" [ref=e396]
+                      - cell "2.050" [ref=e397]
+                    - row [ref=e398]:
+                      - cell [ref=e399]:
+                        - generic [ref=e400]:
+                          - link "Triolo" [ref=e402] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/669707
+                          - text: SS
+                      - cell "0" [ref=e403]
+                      - cell "0" [ref=e404]
+                      - cell "5" [ref=e405]
+                      - cell ".000" [ref=e406]
+                      - cell ".000" [ref=e407]
+                    - row [ref=e408]:
+                      - cell [ref=e409]:
+                        - generic [ref=e410]:
+                          - link "Valdez, Es" [ref=e412] [cursor=pointer]:
+                            - /url: https://www.mlb.com/player/699013
+                          - text: RF
+                      - cell "-" [ref=e413]
+                      - cell "-" [ref=e414]
+                      - cell "-" [ref=e415]
+                      - cell "-" [ref=e416]
+                      - cell "-" [ref=e417]
+      - complementary "Advertisement"
+  - contentinfo [ref=e421]:
+    - list [ref=e423]:
+      - listitem [ref=e424]:
+        - button "OFFICIAL INFORMATION" [ref=e425]
+      - listitem [ref=e426]:
+        - button "HELP/CONTACT US" [ref=e427]
+      - listitem [ref=e428]:
+        - button "MORE MLB SITES & AFFILIATES" [ref=e429]
+      - listitem [ref=e430]:
+        - button "CAREERS" [ref=e431]
+    - generic [ref=e433]:
+      - list [ref=e435]:
+        - listitem [ref=e436]:
+          - link "MLB.com" [ref=e437] [cursor=pointer]:
+            - /url: /
+            - img "MLB.com" [ref=e438]
+        - listitem [ref=e439]:
+          - link [ref=e440] [cursor=pointer]:
+            - /url: https://www.bgca.org/about-us/our-partners/mlb
+            - img "Boys and Girls Club of America" [ref=e441]
+      - generic [ref=e442]:
+        - list [ref=e443]:
+          - listitem [ref=e444]:
+            - link "Terms of Use" [ref=e445] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information/terms-of-use
+          - listitem [ref=e446]:
+            - link "Privacy Policy" [ref=e447] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information/privacy-policy
+          - listitem [ref=e448]:
+            - link "Legal Notices" [ref=e449] [cursor=pointer]:
+              - /url: https://www.mlb.com/official-information/legal-notices
+          - listitem [ref=e450]:
+            - link "Contact Us" [ref=e451] [cursor=pointer]:
+              - /url: https://support.mlb.com/s/
+          - listitem [ref=e452]:
+            - link "Do not Sell or Share My Personal Data" [ref=e453] [cursor=pointer]:
+              - /url: https://privacyportal.onetrust.com/webform/53a301ae-6882-46f9-af93-24f64f792aee/3251a424-8286-4725-9313-603f12c85a49
+          - listitem [ref=e454]:
+            - button "Cookie Settings" [ref=e455] [cursor=pointer]
+        - generic [ref=e456]: © 2026 MLB Advanced Media, LP. All rights reserved.
+  - dialog "Privacy" [ref=e459]:
+    - generic [ref=e461]:
+      - generic [ref=e464]:
+        - text: We store cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. By continuing to use our services, you agree to the
+        - link "MLB Privacy Policy" [active] [ref=e465] [cursor=pointer]:
+          - /url: https://www.mlb.com/official-information/privacy-policy
+        - text: and
+        - link "Terms of Use Agreement" [ref=e466] [cursor=pointer]:
+          - /url: https://www.mlb.com/official-information/terms-of-use
+        - text: .
+      - generic [ref=e468]:
+        - button "Cookies Settings, Opens the preference center dialog" [ref=e469] [cursor=pointer]: Cookies Settings
+        - button "OK" [ref=e470] [cursor=pointer]
+    - button "Close" [ref=e472] [cursor=pointer]
+  - iframe

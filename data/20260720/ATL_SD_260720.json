@@ -1,0 +1,118 @@
+{
+  "ATL": {
+    "home_away": "home",
+    "starting_pitcher": "Elder",
+    "roster": [
+      {
+        "name": "Albies",
+        "position": "2B"
+      },
+      {
+        "name": "Baldwin, D",
+        "position": "C"
+      },
+      {
+        "name": "Bart",
+        "position": "C"
+      },
+      {
+        "name": "Dubón",
+        "position": "LF"
+      },
+      {
+        "name": "Farmer, K",
+        "position": "DH"
+      },
+      {
+        "name": "Harris II",
+        "position": "CF"
+      },
+      {
+        "name": "Hicklen",
+        "position": "CF"
+      },
+      {
+        "name": "Jarvis",
+        "position": "SS"
+      },
+      {
+        "name": "Mateo",
+        "position": "SS"
+      },
+      {
+        "name": "Olson",
+        "position": "1B"
+      },
+      {
+        "name": "Riley, A",
+        "position": "3B"
+      },
+      {
+        "name": "Smith, D",
+        "position": "DH"
+      },
+      {
+        "name": "White, E",
+        "position": "RF"
+      }
+    ]
+  },
+  "SD": {
+    "home_away": "away",
+    "starting_pitcher": "Sears",
+    "roster": [
+      {
+        "name": "Andujar",
+        "position": "DH"
+      },
+      {
+        "name": "Bogaerts",
+        "position": "SS"
+      },
+      {
+        "name": "Bowen",
+        "position": "RF"
+      },
+      {
+        "name": "Campusano",
+        "position": "C"
+      },
+      {
+        "name": "Cronenworth",
+        "position": "2B"
+      },
+      {
+        "name": "Fermin",
+        "position": "C"
+      },
+      {
+        "name": "France, T",
+        "position": "1B"
+      },
+      {
+        "name": "Machado, M",
+        "position": "3B"
+      },
+      {
+        "name": "Merrill",
+        "position": "CF"
+      },
+      {
+        "name": "Rengifo",
+        "position": "3B"
+      },
+      {
+        "name": "Sheets",
+        "position": "1B"
+      },
+      {
+        "name": "Song",
+        "position": "2B"
+      },
+      {
+        "name": "Tatis Jr.",
+        "position": "RF"
+      }
+    ]
+  }
+}

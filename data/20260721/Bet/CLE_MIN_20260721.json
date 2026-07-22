@@ -1,0 +1,17 @@
+{
+  "scraped_at": "2026-07-21T02:01:37",
+  "source": "Taiwan Sports Lottery",
+  "source_url": "https://www.sportslottery.com.tw/sportsbook/sport/%E6%A3%92%E7%90%83/%E7%BE%8E%E5%9C%8B/%E7%BE%8E%E5%9C%8B%E8%81%B7%E6%A3%92/event/3478854.1",
+  "sport": "Baseball",
+  "date": "20260721",
+  "home_team": {
+    "name": "克里夫蘭守護者",
+    "abbr": "CLE"
+  },
+  "away_team": {
+    "name": "明尼蘇達雙城",
+    "abbr": "MIN"
+  },
+  "markets": [],
+  "odds_available": false
+}

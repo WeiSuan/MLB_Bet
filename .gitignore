@@ -6,6 +6,7 @@ __pycache__/
 .venv/
 
 # Generated runtime data/output should not be committed.
+.data/
 .playwright/
 .playwright-mcp/
 

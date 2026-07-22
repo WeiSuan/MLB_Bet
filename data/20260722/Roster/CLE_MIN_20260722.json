@@ -1,0 +1,118 @@
+{
+  "CLE": {
+    "home_away": "home",
+    "starting_pitcher": "Cecconi",
+    "roster": [
+      {
+        "name": "Arias, G",
+        "position": "3B"
+      },
+      {
+        "name": "Bailey",
+        "position": "C"
+      },
+      {
+        "name": "Bazzana",
+        "position": "2B"
+      },
+      {
+        "name": "DeLauter",
+        "position": "RF"
+      },
+      {
+        "name": "Fry",
+        "position": "RF"
+      },
+      {
+        "name": "Halpin",
+        "position": "CF"
+      },
+      {
+        "name": "Hedges",
+        "position": "C"
+      },
+      {
+        "name": "Hoskins",
+        "position": "1B"
+      },
+      {
+        "name": "Kwan",
+        "position": "CF"
+      },
+      {
+        "name": "Manzardo",
+        "position": "1B"
+      },
+      {
+        "name": "Rocchio",
+        "position": "SS"
+      },
+      {
+        "name": "Schneemann",
+        "position": "CF"
+      },
+      {
+        "name": "Watson",
+        "position": "RF"
+      }
+    ]
+  },
+  "MIN": {
+    "home_away": "away",
+    "starting_pitcher": "Ober",
+    "roster": [
+      {
+        "name": "Bell",
+        "position": "DH"
+      },
+      {
+        "name": "Buxton",
+        "position": "CF"
+      },
+      {
+        "name": "Caratini",
+        "position": "C"
+      },
+      {
+        "name": "Clemens",
+        "position": "1B"
+      },
+      {
+        "name": "Jackson, A",
+        "position": "C"
+      },
+      {
+        "name": "Jeffers",
+        "position": "C"
+      },
+      {
+        "name": "Keaschall",
+        "position": "2B"
+      },
+      {
+        "name": "Kreidler",
+        "position": "SS"
+      },
+      {
+        "name": "Larnach",
+        "position": "LF"
+      },
+      {
+        "name": "Lee, B",
+        "position": "SS"
+      },
+      {
+        "name": "Lewis, R",
+        "position": "3B"
+      },
+      {
+        "name": "Martin",
+        "position": "RF"
+      },
+      {
+        "name": "Roden",
+        "position": "RF"
+      }
+    ]
+  }
+}

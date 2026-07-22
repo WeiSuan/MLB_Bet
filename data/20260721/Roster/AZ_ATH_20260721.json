@@ -1,0 +1,65 @@
+{
+  "AZ": {
+    "home_away": "home",
+    "starting_pitcher": "",
+    "roster": [
+      {
+        "name": "Arenado",
+        "position": "3B"
+      },
+      {
+        "name": "Barrosa",
+        "position": "CF"
+      },
+      {
+        "name": "Carroll",
+        "position": "RF"
+      },
+      {
+        "name": "Del Castillo",
+        "position": "DH"
+      },
+      {
+        "name": "Kepler",
+        "position": "LF"
+      },
+      {
+        "name": "Locklear",
+        "position": "1B"
+      },
+      {
+        "name": "Marte, K",
+        "position": "2B"
+      },
+      {
+        "name": "McCann",
+        "position": "C"
+      },
+      {
+        "name": "Moreno",
+        "position": "C"
+      },
+      {
+        "name": "Perdomo",
+        "position": "SS"
+      },
+      {
+        "name": "Tawa",
+        "position": "LF"
+      },
+      {
+        "name": "Vargas, I",
+        "position": "1B"
+      },
+      {
+        "name": "Waldschmidt",
+        "position": "CF"
+      }
+    ]
+  },
+  "ATH": {
+    "home_away": "away",
+    "starting_pitcher": "Perkins",
+    "roster": []
+  }
+}

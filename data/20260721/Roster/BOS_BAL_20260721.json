@@ -1,0 +1,65 @@
+{
+  "BOS": {
+    "home_away": "home",
+    "starting_pitcher": "",
+    "roster": [
+      {
+        "name": "Abreu, W",
+        "position": "RF"
+      },
+      {
+        "name": "Cheng, T",
+        "position": "SS"
+      },
+      {
+        "name": "Contreras, Wn",
+        "position": "1B"
+      },
+      {
+        "name": "Duran, Ja",
+        "position": "LF"
+      },
+      {
+        "name": "Durbin",
+        "position": "3B"
+      },
+      {
+        "name": "Gonzalez, R",
+        "position": "DH"
+      },
+      {
+        "name": "Jones, Jah",
+        "position": "OF"
+      },
+      {
+        "name": "Monasterio",
+        "position": "SS"
+      },
+      {
+        "name": "Narváez",
+        "position": "C"
+      },
+      {
+        "name": "Rafaela",
+        "position": "CF"
+      },
+      {
+        "name": "Seigler",
+        "position": "2B"
+      },
+      {
+        "name": "Wong",
+        "position": "C"
+      },
+      {
+        "name": "Yoshida",
+        "position": "DH"
+      }
+    ]
+  },
+  "BAL": {
+    "home_away": "away",
+    "starting_pitcher": "Bradish",
+    "roster": []
+  }
+}

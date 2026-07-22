@@ -1,0 +1,223 @@
+{
+  "scraped_at": "2026-07-21T02:01:37",
+  "source": "Taiwan Sports Lottery",
+  "source_url": "https://www.sportslottery.com.tw/sportsbook/sport/%E6%A3%92%E7%90%83/%E7%BE%8E%E5%9C%8B/%E7%BE%8E%E5%9C%8B%E8%81%B7%E6%A3%92/event/3478866.1",
+  "sport": "Baseball",
+  "date": "20260721",
+  "home_team": {
+    "name": "科羅拉多落磯",
+    "abbr": "COL"
+  },
+  "away_team": {
+    "name": "華盛頓國民",
+    "abbr": "WSH"
+  },
+  "markets": [
+    {
+      "market": "不讓分",
+      "options": [
+        {
+          "selection": "華盛頓國民",
+          "odds": 1.82
+        },
+        {
+          "selection": "科羅拉多落磯",
+          "odds": 1.68
+        }
+      ]
+    },
+    {
+      "market": "讓分 1.5",
+      "options": [
+        {
+          "selection": "華盛頓國民 -1.5",
+          "odds": 2.1
+        },
+        {
+          "selection": "科羅拉多落磯 +1.5",
+          "odds": 1.45
+        }
+      ]
+    },
+    {
+      "market": "讓分 2.5",
+      "options": [
+        {
+          "selection": "華盛頓國民 -2.5",
+          "odds": 2.5
+        },
+        {
+          "selection": "科羅拉多落磯 +2.5",
+          "odds": 1.32
+        }
+      ]
+    },
+    {
+      "market": "[總分]大小 11.5",
+      "options": [
+        {
+          "selection": "大 11.5",
+          "odds": 1.48
+        },
+        {
+          "selection": "小 11.5",
+          "odds": 2.05
+        }
+      ]
+    },
+    {
+      "market": "[總分]大小 12.5",
+      "options": [
+        {
+          "selection": "大 12.5",
+          "odds": 1.66
+        },
+        {
+          "selection": "小 12.5",
+          "odds": 1.84
+        }
+      ]
+    },
+    {
+      "market": "[總分]大小 13.5",
+      "options": [
+        {
+          "selection": "大 13.5",
+          "odds": 1.92
+        },
+        {
+          "selection": "小 13.5",
+          "odds": 1.58
+        }
+      ]
+    },
+    {
+      "market": "科羅拉多落磯 大小 6.5",
+      "options": [
+        {
+          "selection": "大 6.5",
+          "odds": 1.85
+        },
+        {
+          "selection": "小 6.5",
+          "odds": 1.6
+        }
+      ]
+    },
+    {
+      "market": "華盛頓國民 大小 6.5",
+      "options": [
+        {
+          "selection": "大 6.5",
+          "odds": 1.78
+        },
+        {
+          "selection": "小 6.5",
+          "odds": 1.65
+        }
+      ]
+    },
+    {
+      "market": "得分最高單局(不含延長賽)",
+      "options": [
+        {
+          "selection": "第1局",
+          "odds": 5.45
+        },
+        {
+          "selection": "第2局",
+          "odds": 6.75
+        },
+        {
+          "selection": "第3局",
+          "odds": 5.65
+        },
+        {
+          "selection": "第4局",
+          "odds": 6.5
+        },
+        {
+          "selection": "第5局",
+          "odds": 5.85
+        },
+        {
+          "selection": "第6局",
+          "odds": 5.7
+        },
+        {
+          "selection": "第7局",
+          "odds": 5.55
+        },
+        {
+          "selection": "第8局",
+          "odds": 5.65
+        },
+        {
+          "selection": "第9局",
+          "odds": 8
+        },
+        {
+          "selection": "一樣多",
+          "odds": 2.45
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 不讓分",
+      "options": [
+        {
+          "selection": "5局] 不讓分 - 華盛頓國民",
+          "odds": 1.8
+        },
+        {
+          "selection": "5局] 不讓分 - 和局",
+          "odds": 6.25
+        },
+        {
+          "selection": "5局] 不讓分 - 科羅拉多落磯",
+          "odds": 1.7
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 大小 6.5",
+      "options": [
+        {
+          "selection": "5局] 大小 6.5 - 大 6.5",
+          "odds": 1.56
+        },
+        {
+          "selection": "5局] 大小 6.5 - 小 6.5",
+          "odds": 1.78
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 科羅拉多落磯 大小 3.5",
+      "options": [
+        {
+          "selection": "5局] 科羅拉多落磯 大小 3.5 - 大 3.5",
+          "odds": 1.85
+        },
+        {
+          "selection": "5局] 科羅拉多落磯 大小 3.5 - 小 3.5",
+          "odds": 1.6
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 華盛頓國民 大小 3.5",
+      "options": [
+        {
+          "selection": "5局] 華盛頓國民 大小 3.5 - 大 3.5",
+          "odds": 1.88
+        },
+        {
+          "selection": "5局] 華盛頓國民 大小 3.5 - 小 3.5",
+          "odds": 1.56
+        }
+      ]
+    }
+  ],
+  "odds_available": true
+}

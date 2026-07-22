@@ -1,0 +1,236 @@
+{
+  "scraped_at": "2026-07-21T02:01:37",
+  "source": "Taiwan Sports Lottery",
+  "source_url": "https://www.sportslottery.com.tw/sportsbook/sport/%E6%A3%92%E7%90%83/%E7%BE%8E%E5%9C%8B/%E7%BE%8E%E5%9C%8B%E8%81%B7%E6%A3%92/event/3478860.1",
+  "sport": "Baseball",
+  "date": "20260721",
+  "home_team": {
+    "name": "堪薩斯皇家",
+    "abbr": "KC"
+  },
+  "away_team": {
+    "name": "舊金山巨人",
+    "abbr": "SF"
+  },
+  "markets": [
+    {
+      "market": "不讓分",
+      "options": [
+        {
+          "selection": "舊金山巨人",
+          "odds": 1.82
+        },
+        {
+          "selection": "堪薩斯皇家",
+          "odds": 1.68
+        }
+      ]
+    },
+    {
+      "market": "讓分 -2.5",
+      "options": [
+        {
+          "selection": "2.5 - 舊金山巨人 +2.5",
+          "odds": 1.28
+        },
+        {
+          "selection": "2.5 - 堪薩斯皇家 -2.5",
+          "odds": 2.7
+        }
+      ]
+    },
+    {
+      "market": "讓分 -1.5",
+      "options": [
+        {
+          "selection": "1.5 - 舊金山巨人 +1.5",
+          "odds": 1.42
+        },
+        {
+          "selection": "1.5 - 堪薩斯皇家 -1.5",
+          "odds": 2.2
+        }
+      ]
+    },
+    {
+      "market": "讓分 1.5",
+      "options": [
+        {
+          "selection": "舊金山巨人 -1.5",
+          "odds": 2.3
+        },
+        {
+          "selection": "堪薩斯皇家 +1.5",
+          "odds": 1.4
+        }
+      ]
+    },
+    {
+      "market": "[總分]大小 8.5",
+      "options": [
+        {
+          "selection": "大 8.5",
+          "odds": 1.46
+        },
+        {
+          "selection": "小 8.5",
+          "odds": 2.07
+        }
+      ]
+    },
+    {
+      "market": "[總分]大小 9.5",
+      "options": [
+        {
+          "selection": "大 9.5",
+          "odds": 1.74
+        },
+        {
+          "selection": "小 9.5",
+          "odds": 1.76
+        }
+      ]
+    },
+    {
+      "market": "[總分]大小 10.5",
+      "options": [
+        {
+          "selection": "大 10.5",
+          "odds": 1.95
+        },
+        {
+          "selection": "小 10.5",
+          "odds": 1.55
+        }
+      ]
+    },
+    {
+      "market": "堪薩斯皇家 大小 4.5",
+      "options": [
+        {
+          "selection": "大 4.5",
+          "odds": 1.7
+        },
+        {
+          "selection": "小 4.5",
+          "odds": 1.73
+        }
+      ]
+    },
+    {
+      "market": "舊金山巨人 大小 4.5",
+      "options": [
+        {
+          "selection": "大 4.5",
+          "odds": 1.68
+        },
+        {
+          "selection": "小 4.5",
+          "odds": 1.75
+        }
+      ]
+    },
+    {
+      "market": "得分最高單局(不含延長賽)",
+      "options": [
+        {
+          "selection": "第1局",
+          "odds": 5.55
+        },
+        {
+          "selection": "第2局",
+          "odds": 6.75
+        },
+        {
+          "selection": "第3局",
+          "odds": 5.95
+        },
+        {
+          "selection": "第4局",
+          "odds": 6.25
+        },
+        {
+          "selection": "第5局",
+          "odds": 6.25
+        },
+        {
+          "selection": "第6局",
+          "odds": 5.7
+        },
+        {
+          "selection": "第7局",
+          "odds": 5.7
+        },
+        {
+          "selection": "第8局",
+          "odds": 5.55
+        },
+        {
+          "selection": "第9局",
+          "odds": 8
+        },
+        {
+          "selection": "一樣多",
+          "odds": 2.3
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 不讓分",
+      "options": [
+        {
+          "selection": "5局] 不讓分 - 舊金山巨人",
+          "odds": 1.85
+        },
+        {
+          "selection": "5局] 不讓分 - 和局",
+          "odds": 5.05
+        },
+        {
+          "selection": "5局] 不讓分 - 堪薩斯皇家",
+          "odds": 1.8
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 大小 5.5",
+      "options": [
+        {
+          "selection": "5局] 大小 5.5 - 大 5.5",
+          "odds": 1.83
+        },
+        {
+          "selection": "5局] 大小 5.5 - 小 5.5",
+          "odds": 1.52
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 堪薩斯皇家 大小 2.5",
+      "options": [
+        {
+          "selection": "5局] 堪薩斯皇家 大小 2.5 - 大 2.5",
+          "odds": 1.82
+        },
+        {
+          "selection": "5局] 堪薩斯皇家 大小 2.5 - 小 2.5",
+          "odds": 1.62
+        }
+      ]
+    },
+    {
+      "market": "[1-5局] 舊金山巨人 大小 2.5",
+      "options": [
+        {
+          "selection": "5局] 舊金山巨人 大小 2.5 - 大 2.5",
+          "odds": 1.9
+        },
+        {
+          "selection": "5局] 舊金山巨人 大小 2.5 - 小 2.5",
+          "odds": 1.55
+        }
+      ]
+    }
+  ],
+  "odds_available": true
+}
