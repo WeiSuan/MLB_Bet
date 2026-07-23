@@ -1,7 +1,7 @@
 {
   "CLE": {
     "home_away": "home",
-    "starting_pitcher": "Bibee",
+    "starting_pitcher": "Williams",
     "roster": [
       {
         "name": "Arias, G",
@@ -44,26 +44,30 @@
         "position": "1B"
       },
       {
+        "name": "Ramírez, Jo",
+        "position": "3B"
+      },
+      {
         "name": "Rocchio",
         "position": "SS"
       },
       {
         "name": "Schneemann",
         "position": "CF"
-      },
-      {
-        "name": "Watson",
-        "position": "RF"
       }
     ]
   },
   "MIN": {
     "home_away": "away",
-    "starting_pitcher": "Ryan",
+    "starting_pitcher": "Bradley",
     "roster": [
       {
         "name": "Bell",
         "position": "DH"
+      },
+      {
+        "name": "Buxton",
+        "position": "CF"
       },
       {
         "name": "Caratini",
@@ -72,10 +76,6 @@
       {
         "name": "Clemens",
         "position": "1B"
-      },
-      {
-        "name": "Gray, T",
-        "position": "SS"
       },
       {
         "name": "Jackson, A",

@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -9,7 +10,6 @@ from playwright.sync_api import Page, sync_playwright
 
 
 SPORT_URL = "https://www.sportslottery.com.tw/sportsbook/sport/%E6%A3%92%E7%90%83/34731.1"
-MLB_URL_KEYWORD = "美國職棒"
 
 
 TEAM_ABBR_MAP = {
@@ -121,10 +121,40 @@ def scroll_for_full_listing(page: Page) -> None:
 	last_height = -1
 
 	for _ in range(20):
-		page.evaluate("window.scrollBy(0, Math.floor(window.innerHeight * 1.2))")
+		try:
+			page.evaluate(
+				"""
+				() => {
+				  window.scrollBy(0, Math.floor(window.innerHeight * 1.2));
+				  const body = document.body;
+				  const root = document.documentElement;
+				  return body?.scrollHeight || root?.scrollHeight || 0;
+				}
+				"""
+			)
+		except Exception:
+			page.wait_for_timeout(500)
+			continue
 		page.wait_for_timeout(400)
 
-		current_height = page.evaluate("document.body.scrollHeight")
+		try:
+			current_height = page.evaluate(
+				"""
+				() => {
+				  const body = document.body;
+				  const root = document.documentElement;
+				  return body?.scrollHeight || root?.scrollHeight || 0;
+				}
+				"""
+			)
+		except Exception:
+			page.wait_for_timeout(500)
+			continue
+
+		if current_height <= 0:
+			page.wait_for_timeout(500)
+			continue
+
 		if current_height == last_height:
 			stable_count += 1
 		else:
@@ -134,39 +164,96 @@ def scroll_for_full_listing(page: Page) -> None:
 		if stable_count >= 3:
 			break
 
-	page.evaluate("window.scrollTo(0, 0)")
+	try:
+		page.evaluate("window.scrollTo(0, 0)")
+	except Exception:
+		pass
 	page.wait_for_timeout(300)
 
 
 def collect_event_links(page: Page) -> list[str]:
-	links_by_event_id: dict[str, str] = {}
-
-	for _ in range(10):
-		results = page.evaluate(
+	def collect_links_in_context(frame_or_page: Any) -> list[str]:
+		return frame_or_page.evaluate(
 			"""
 			() => {
-			  return Array.from(document.querySelectorAll('a[href*="/event/"]'))
-				.map(a => a.href)
+			  const rawValues = [];
+			  const eventNodes = Array.from(document.querySelectorAll('[href*="/event/"], [data-href*="/event/"]'));
+
+			  for (const node of eventNodes) {
+				const hrefAttr = node.getAttribute('href');
+				const dataHrefAttr = node.getAttribute('data-href');
+				if (hrefAttr) rawValues.push(hrefAttr);
+				if (dataHrefAttr) rawValues.push(dataHrefAttr);
+			  }
+
+			  return rawValues
+				.map(value => {
+				  try {
+					return new URL(value, location.origin).href;
+				  } catch {
+					return '';
+				  }
+				})
 				.filter(Boolean);
 			}
 			"""
 		)
-		for href in results:
-			if "/sport/" in href and "/event/" in href:
-				decoded = unquote(href)
-				if MLB_URL_KEYWORD not in decoded:
-					continue
 
-				event_match = re.search(r"/event/(\d+\.\d+)", href)
-				if not event_match:
-					continue
-				event_id = event_match.group(1)
-				links_by_event_id[event_id] = href
+	links_by_event_id: dict[str, str] = {}
+	sport_path = re.search(r"/sport/[^/]+/(\d+\.\d+)", SPORT_URL)
+	allowed_sport_id = sport_path.group(1) if sport_path else ""
+
+	for attempt in range(12):
+		results: list[str] = []
+		for context in page.frames:
+			try:
+				results.extend(collect_links_in_context(context))
+			except Exception:
+				# Ignore detached/cross-process frame evaluation issues.
+				continue
+
+		for href in results:
+			if "/event/" not in href:
+				continue
+			if allowed_sport_id and "/sport/" in href and f"/{allowed_sport_id}/event/" not in href:
+				continue
+
+			event_match = re.search(r"/event/([^/?#]+)", href)
+			if not event_match:
+				continue
+			event_id = event_match.group(1)
+			links_by_event_id[event_id] = href
+
+		if links_by_event_id:
+			break
 
 		page.evaluate("window.scrollBy(0, Math.floor(window.innerHeight * 0.9))")
-		page.wait_for_timeout(350)
+		page.wait_for_timeout(350 + (attempt * 80))
 
 	return sorted(links_by_event_id.values())
+
+
+def is_security_challenge(page: Page) -> bool:
+	title = (page.title() or "").strip().lower()
+	if "just a moment" in title:
+		return True
+
+	body_text = page.evaluate(
+		"""
+		() => (document.body?.innerText || '').toLowerCase()
+		"""
+	)
+	return (
+		"performing security verification" in body_text
+		or "verify you are not a bot" in body_text
+		or "cloudflare" in body_text
+	)
+
+
+def is_env_true(raw_value: str | None) -> bool:
+	if raw_value is None:
+		return False
+	return raw_value.strip().lower() in {"1", "true", "yes", "on"}
 
 
 def parse_matchup(label_text: str) -> tuple[str, str]:
@@ -363,6 +450,8 @@ def main() -> None:
 	# Resolve paths from file location so execution is stable from any cwd.
 	project_root = Path(__file__).resolve().parents[2]
 	data_root = project_root / "data"
+	# Headed by default for manual Cloudflare verification.
+	headless = is_env_true(os.getenv("SPORTSLOTTERY_HEADLESS"))
 
 	now = datetime.now()
 	date_stamp = now.strftime("%Y%m%d")
@@ -371,17 +460,68 @@ def main() -> None:
 	output_dir.mkdir(parents=True, exist_ok=True)
 
 	with sync_playwright() as p:
-		browser = p.chromium.launch(headless=True)
+		browser = p.chromium.launch(headless=headless)
 		page = browser.new_page()
 
 		page.goto(SPORT_URL, wait_until="domcontentloaded")
 		page.wait_for_timeout(1500)
+
+		if is_security_challenge(page):
+			if headless:
+				browser.close()
+				raise RuntimeError(
+					"Blocked by website security verification page (Cloudflare). "
+					"Run in headed mode to complete manual verification."
+				)
+
+			print("Security verification page detected. Please complete verification in browser window...")
+			verified = False
+			for _ in range(90):
+				page.wait_for_timeout(2000)
+				if not is_security_challenge(page):
+					verified = True
+					break
+
+			if not verified:
+				browser.close()
+				raise RuntimeError(
+					"Security verification was not completed within 180 seconds. "
+					"Please rerun and complete verification in the opened browser window."
+				)
+
 		scroll_for_full_listing(page)
 
 		event_links = collect_event_links(page)
 		if not event_links:
+			frame_candidates: list[str] = []
+			frame_urls: list[str] = []
+			for frame in page.frames:
+				if frame.url:
+					frame_urls.append(frame.url)
+				try:
+					candidate_values = frame.evaluate(
+						"""
+						() => Array.from(document.querySelectorAll('[href*="/event/"], [data-href*="/event/"]'))
+						  .flatMap(node => [node.getAttribute('href'), node.getAttribute('data-href')])
+						  .filter(Boolean)
+						  .slice(0, 5)
+						"""
+					)
+					for value in candidate_values:
+						if value not in frame_candidates:
+							frame_candidates.append(value)
+				except Exception:
+					continue
+
+			debug_sample = ", ".join(frame_candidates[:10]) if frame_candidates else "none"
+			debug_url = page.url
+			debug_frame_sample = ", ".join(frame_urls[:5]) if frame_urls else "none"
 			browser.close()
-			raise RuntimeError("No baseball event links found on sports lottery page.")
+			raise RuntimeError(
+				"No baseball event links found on sports lottery page. "
+				f"page_url={debug_url}; frame_count={len(page.frames)}; frame_sample={debug_frame_sample}; "
+				f"candidate_count={len(frame_candidates)}; sample={debug_sample}"
+			)
 
 		saved = 0
 		for event_url in event_links:

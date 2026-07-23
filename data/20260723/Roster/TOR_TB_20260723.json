@@ -1,12 +1,8 @@
 {
   "TOR": {
     "home_away": "home",
-    "starting_pitcher": "Cease",
+    "starting_pitcher": "Bieber",
     "roster": [
-      {
-        "name": "Clase, J",
-        "position": "LF"
-      },
       {
         "name": "Clement",
         "position": "2B"
@@ -36,6 +32,10 @@
         "position": "3B"
       },
       {
+        "name": "Piñango",
+        "position": "LF"
+      },
+      {
         "name": "Springer",
         "position": "DH"
       },
@@ -59,7 +59,7 @@
   },
   "TB": {
     "home_away": "away",
-    "starting_pitcher": "Martinez",
+    "starting_pitcher": "Seymour",
     "roster": [
       {
         "name": "Aranda",

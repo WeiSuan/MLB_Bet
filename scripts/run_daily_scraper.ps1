@@ -39,14 +39,17 @@ $steps = @(
     @{
         Name = 'MLB Roster Scraper'
         Path = Join-Path $projectRoot 'src/scrapers/mlb_playwright_scraper.py'
+        Args = @()
     },
     @{
         Name = 'Sports Lottery Bet Scraper'
         Path = Join-Path $projectRoot 'src/scrapers/sportslottery_baseball_bet_scraper.py'
+        Args = @()
     },
     @{
         Name = 'Roster Player Data Enricher'
         Path = Join-Path $projectRoot 'src/enrichers/roster_player_data_enricher.py'
+        Args = @('-all')
     }
 )
 
@@ -87,7 +90,8 @@ Push-Location $projectRoot
 try {
     foreach ($step in $steps) {
         Write-Host "Running: $($step.Name)"
-        & $pythonExeResolved $step.Path *>&1 | Tee-Object -FilePath $logFile -Append
+        $stepArgs = @($step.Path) + @($step.Args)
+        & $pythonExeResolved @stepArgs *>&1 | Tee-Object -FilePath $logFile -Append
         $stepExitCode = $LASTEXITCODE
 
         if ($stepExitCode -ne 0) {

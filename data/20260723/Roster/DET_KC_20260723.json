@@ -1,0 +1,118 @@
+{
+  "DET": {
+    "home_away": "home",
+    "starting_pitcher": "Melton",
+    "roster": [
+      {
+        "name": "Carpenter",
+        "position": "RF"
+      },
+      {
+        "name": "Dingler",
+        "position": "C"
+      },
+      {
+        "name": "Greene, R",
+        "position": "LF"
+      },
+      {
+        "name": "Keith",
+        "position": "3B"
+      },
+      {
+        "name": "Lee",
+        "position": "2B"
+      },
+      {
+        "name": "Malgeri",
+        "position": "RF"
+      },
+      {
+        "name": "McGonigle",
+        "position": "SS"
+      },
+      {
+        "name": "McKinstry",
+        "position": "2B"
+      },
+      {
+        "name": "Outman",
+        "position": "CF"
+      },
+      {
+        "name": "Rogers",
+        "position": "C"
+      },
+      {
+        "name": "Torkelson",
+        "position": "1B"
+      },
+      {
+        "name": "Torres",
+        "position": "2B"
+      },
+      {
+        "name": "Vierling",
+        "position": "CF"
+      }
+    ]
+  },
+  "KC": {
+    "home_away": "away",
+    "starting_pitcher": "Dobnak",
+    "roster": [
+      {
+        "name": "Caglianone",
+        "position": "RF"
+      },
+      {
+        "name": "Collins",
+        "position": "LF"
+      },
+      {
+        "name": "Jensen",
+        "position": "C"
+      },
+      {
+        "name": "Loftin",
+        "position": "3B"
+      },
+      {
+        "name": "Maile",
+        "position": "C"
+      },
+      {
+        "name": "Marte, S",
+        "position": "RF"
+      },
+      {
+        "name": "Massey",
+        "position": "2B"
+      },
+      {
+        "name": "Pasquantino",
+        "position": "1B"
+      },
+      {
+        "name": "Perez, S",
+        "position": "C"
+      },
+      {
+        "name": "Rojas, J",
+        "position": "3B"
+      },
+      {
+        "name": "Thomas, L",
+        "position": "CF"
+      },
+      {
+        "name": "Tolbert",
+        "position": "SS"
+      },
+      {
+        "name": "Velazquez, A",
+        "position": "SS"
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "ATL": {
     "home_away": "home",
-    "starting_pitcher": "Elder",
+    "starting_pitcher": "Sale",
     "roster": [
       {
         "name": "Albies",
@@ -18,10 +18,6 @@
       {
         "name": "Dubón",
         "position": "LF"
-      },
-      {
-        "name": "Farmer, K",
-        "position": "DH"
       },
       {
         "name": "Harris II",
@@ -54,17 +50,17 @@
       {
         "name": "White, E",
         "position": "RF"
+      },
+      {
+        "name": "Yastrzemski",
+        "position": "LF"
       }
     ]
   },
   "SD": {
     "home_away": "away",
-    "starting_pitcher": "Sears",
+    "starting_pitcher": "Canning",
     "roster": [
-      {
-        "name": "Andujar",
-        "position": "DH"
-      },
       {
         "name": "Bogaerts",
         "position": "SS"
@@ -80,6 +76,10 @@
       {
         "name": "Cronenworth",
         "position": "2B"
+      },
+      {
+        "name": "Durán",
+        "position": "C"
       },
       {
         "name": "Fermin",
