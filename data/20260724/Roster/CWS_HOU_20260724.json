@@ -1,0 +1,118 @@
+{
+  "CWS": {
+    "home_away": "home",
+    "starting_pitcher": "Martin",
+    "roster": [
+      {
+        "name": "Acuña",
+        "position": "SS"
+      },
+      {
+        "name": "Antonacci",
+        "position": "LF"
+      },
+      {
+        "name": "Benintendi",
+        "position": "DH"
+      },
+      {
+        "name": "Grichuk",
+        "position": "DH"
+      },
+      {
+        "name": "Meidroth",
+        "position": "2B"
+      },
+      {
+        "name": "Montgomery, B",
+        "position": "RF"
+      },
+      {
+        "name": "Montgomery, C",
+        "position": "SS"
+      },
+      {
+        "name": "Murakami",
+        "position": "1B"
+      },
+      {
+        "name": "Perez, J",
+        "position": "CF"
+      },
+      {
+        "name": "Peters",
+        "position": "CF"
+      },
+      {
+        "name": "Quero",
+        "position": "C"
+      },
+      {
+        "name": "Romo",
+        "position": "C"
+      },
+      {
+        "name": "Vargas, M",
+        "position": "3B"
+      }
+    ]
+  },
+  "HOU": {
+    "home_away": "away",
+    "starting_pitcher": "Arrighetti",
+    "roster": [
+      {
+        "name": "Allen, N",
+        "position": "SS"
+      },
+      {
+        "name": "Altuve",
+        "position": "2B"
+      },
+      {
+        "name": "Alvarez, Y",
+        "position": "DH"
+      },
+      {
+        "name": "Dezenzo",
+        "position": "LF"
+      },
+      {
+        "name": "Diaz, Y",
+        "position": "C"
+      },
+      {
+        "name": "Paredes",
+        "position": "3B"
+      },
+      {
+        "name": "Peña",
+        "position": "SS"
+      },
+      {
+        "name": "Smith",
+        "position": "RF"
+      },
+      {
+        "name": "Spence",
+        "position": "CF"
+      },
+      {
+        "name": "Trammell",
+        "position": "CF"
+      },
+      {
+        "name": "Vázquez, C",
+        "position": "C"
+      },
+      {
+        "name": "Wade Jr.",
+        "position": "LF"
+      },
+      {
+        "name": "Walker, C",
+        "position": "1B"
+      }
+    ]
+  }
+}

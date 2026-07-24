@@ -1,0 +1,143 @@
+{
+  "full_game": {
+    "moneyline": {
+      "home_win_probability": 0.68,
+      "away_win_probability": 0.32
+    },
+    "total_runs": [
+      {
+        "threshold": 7.5,
+        "is_primary": false,
+        "over_probability": 0.64,
+        "under_probability": 0.36
+      },
+      {
+        "threshold": 8.5,
+        "is_primary": true,
+        "over_probability": 0.52,
+        "under_probability": 0.48
+      },
+      {
+        "threshold": 9.5,
+        "is_primary": false,
+        "over_probability": 0.41,
+        "under_probability": 0.59
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 4.5,
+        "is_primary": false,
+        "over_probability": 0.62,
+        "under_probability": 0.38
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": true,
+        "over_probability": 0.46,
+        "under_probability": 0.54
+      },
+      {
+        "threshold": 6.5,
+        "is_primary": false,
+        "over_probability": 0.31,
+        "under_probability": 0.69
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 2.5,
+        "is_primary": false,
+        "over_probability": 0.65,
+        "under_probability": 0.35
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": true,
+        "over_probability": 0.45,
+        "under_probability": 0.55
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": false,
+        "over_probability": 0.28,
+        "under_probability": 0.72
+      }
+    ]
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_win_probability": 0.61,
+      "away_win_probability": 0.25,
+      "tie_probability": 0.14
+    },
+    "total_runs": [
+      {
+        "threshold": 4.5,
+        "is_primary": false,
+        "over_probability": 0.59,
+        "under_probability": 0.41
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": true,
+        "over_probability": 0.46,
+        "under_probability": 0.54
+      },
+      {
+        "threshold": 6.5,
+        "is_primary": false,
+        "over_probability": 0.32,
+        "under_probability": 0.68
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.55,
+        "under_probability": 0.45
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.41,
+        "under_probability": 0.59
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": false,
+        "over_probability": 0.26,
+        "under_probability": 0.74
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.56,
+        "under_probability": 0.44
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.35,
+        "under_probability": 0.65
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.19,
+        "under_probability": 0.81
+      }
+    ]
+  },
+  "top_5_bets": [
+    "釀酒人前 5 局獨贏 (MIL F5 ML)",
+    "釀酒人全場獨贏 (MIL ML)",
+    "釀酒人前 5 局總得分大於 2.5 (MIL F5 TT Over 2.5)",
+    "落磯前 5 局總得分小於 2.5 (COL F5 TT Under 2.5)",
+    "全場總得分大於 8.5 (Game Total Over 8.5)"
+  ],
+  "analysis": "本場比賽由密爾瓦基釀酒人（主）迎戰科羅拉多落磯（客）。從先發投手數據面來看，釀酒人左投 Shane Drohan 本季繳出 3.20 ERA、1.18 WHIP 與 9.00 K/9 的優異成績，且近 5 場先發 ERA 僅 2.79，無論是三振能力或局數吃載量均十分穩定；反觀落磯右投 Tomoyuki Sugano（菅野智之）本季防禦率 4.76，且有嚴重的挨轟體質（1.79 HR/9），近 5 場更飆升至 2.25 HR/9。更關鍵的是，Sugano 面對左打的壓制力極差，對戰左打 OPS 高達 .920，這對陣中擁有多名具備長打能力左打與左右開弓打者（如 Brice Turang, Jake Bauers）的釀酒人而言，是極大的突破口。\n\n牛棚與團隊指標方面，釀酒人整體投手防禦率 3.44 遠優於落磯的 5.50。且落磯本季客場戰績僅 17 勝 34 敗，顯示他們離開高海拔主場後，攻防兩端均大幅衰退。考量到 Sugano 容易在比賽前段大量失分，前 5 局釀酒人獨贏與單隊大分是極具期望值的選擇。\n\n綜合模型與盤口評估，精選以下 5 個勝率最高的玩法：\n1. 釀酒人前 5 局獨贏：Drohan 壓制力與 Sugano 左打罩門形成強烈對比。\n2. 釀酒人全場獨贏：主客場戰績與牛棚深度存在巨大落差。\n3. 釀酒人前 5 局總得分大於 2.5：受惠於 Sugano 近期極高的挨轟率與左打劣勢。\n4. 落磯前 5 局總得分小於 2.5：Drohan 本季 K/BB 比例極佳，落磯客場打線難以串聯。\n5. 全場總得分大於 8.5：釀酒人打線預期可製造大量分數，且落磯牛棚無法有效止血。"
+}

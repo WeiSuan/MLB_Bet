@@ -1,0 +1,118 @@
+{
+  "SF": {
+    "home_away": "home",
+    "starting_pitcher": "Webb",
+    "roster": [
+      {
+        "name": "Adames",
+        "position": "SS"
+      },
+      {
+        "name": "Arraez",
+        "position": "2B"
+      },
+      {
+        "name": "Cavanaugh",
+        "position": "C"
+      },
+      {
+        "name": "Devers",
+        "position": "1B"
+      },
+      {
+        "name": "Eldridge",
+        "position": "DH"
+      },
+      {
+        "name": "Gilbert",
+        "position": "CF"
+      },
+      {
+        "name": "Koss",
+        "position": "2B"
+      },
+      {
+        "name": "Lee, J",
+        "position": "RF"
+      },
+      {
+        "name": "McCray",
+        "position": "CF"
+      },
+      {
+        "name": "Ramos, H",
+        "position": "LF"
+      },
+      {
+        "name": "Rodriguez, J",
+        "position": "C"
+      },
+      {
+        "name": "Schmitt",
+        "position": "LF"
+      },
+      {
+        "name": "Susac, D",
+        "position": "C"
+      }
+    ]
+  },
+  "LAA": {
+    "home_away": "away",
+    "starting_pitcher": "Rodriguez",
+    "roster": [
+      {
+        "name": "Adell",
+        "position": "RF"
+      },
+      {
+        "name": "Grissom",
+        "position": "2B"
+      },
+      {
+        "name": "Guzman, D",
+        "position": "3B"
+      },
+      {
+        "name": "Heineman",
+        "position": "C"
+      },
+      {
+        "name": "Lowe, J",
+        "position": "LF"
+      },
+      {
+        "name": "Meckler",
+        "position": "LF"
+      },
+      {
+        "name": "Neto",
+        "position": "SS"
+      },
+      {
+        "name": "O'Hoppe",
+        "position": "C"
+      },
+      {
+        "name": "Peraza, O",
+        "position": "2B"
+      },
+      {
+        "name": "Schanuel",
+        "position": "1B"
+      },
+      {
+        "name": "Siri",
+        "position": "CF"
+      },
+      {
+        "name": "Soler",
+        "position": "DH"
+      },
+      {
+        "name": "Trout",
+        "position": "CF"
+      }
+    ]
+  }
+}

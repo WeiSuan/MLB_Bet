@@ -1,0 +1,91 @@
+{
+  "type": "object",
+  "properties": {
+    "match_info": {
+      "type": "object",
+      "properties": {
+        "game_id": {
+          "type": "string",
+          "description": "賽事識別碼 (如: ATL_SD_20260723)"
+        },
+        "date": {
+          "type": "string",
+          "description": "比賽日期 (YYYY-MM-DD)"
+        },
+        "home_team": {
+          "type": "string",
+          "description": "主隊代碼 (如: ATL)"
+        },
+        "away_team": {
+          "type": "string",
+          "description": "客隊代碼 (如: SD)"
+        }
+      },
+      "required": [
+        "game_id",
+        "date",
+        "home_team",
+        "away_team"
+      ],
+      "propertyOrdering": [
+        "game_id",
+        "date",
+        "home_team",
+        "away_team"
+      ]
+    },
+    "summary_recommendation": {
+      "type": "object",
+      "properties": {
+        "top_5_recommendations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "market": {
+                "type": "string"
+              },
+              "threshold": {
+                "type": "number",
+                "nullable": true
+              },
+              "probability": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "market",
+              "threshold",
+              "probability"
+            ],
+            "propertyOrdering": [
+              "market",
+              "threshold",
+              "probability"
+            ]
+          }
+        },
+        "reasoning": {
+          "type": "string",
+          "description": "約 300 字的量化分析論述，包含先發投手壓制力、假性先發識別、左右打剋制、低相關性串關理由等。"
+        }
+      },
+      "required": [
+        "top_5_recommendations",
+        "reasoning"
+      ],
+      "propertyOrdering": [
+        "top_5_recommendations",
+        "reasoning"
+      ]
+    }
+  },
+  "required": [
+    "match_info",
+    "summary_recommendation"
+  ],
+  "propertyOrdering": [
+    "match_info",
+    "summary_recommendation"
+  ]
+}

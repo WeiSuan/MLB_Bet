@@ -1,0 +1,118 @@
+{
+  "WSH": {
+    "home_away": "home",
+    "starting_pitcher": "Palmquist",
+    "roster": [
+      {
+        "name": "Abrams",
+        "position": "SS"
+      },
+      {
+        "name": "Chaparro",
+        "position": "1B"
+      },
+      {
+        "name": "Crews",
+        "position": "RF"
+      },
+      {
+        "name": "Ford, H",
+        "position": "C"
+      },
+      {
+        "name": "García Jr., L",
+        "position": "1B"
+      },
+      {
+        "name": "Lile",
+        "position": "LF"
+      },
+      {
+        "name": "Mead",
+        "position": "3B"
+      },
+      {
+        "name": "Nuñez, N",
+        "position": "2B"
+      },
+      {
+        "name": "Ruiz, K",
+        "position": "C"
+      },
+      {
+        "name": "Tena",
+        "position": "DH"
+      },
+      {
+        "name": "Vivas",
+        "position": "3B"
+      },
+      {
+        "name": "Wood",
+        "position": "RF"
+      },
+      {
+        "name": "Young",
+        "position": "CF"
+      }
+    ]
+  },
+  "AZ": {
+    "home_away": "away",
+    "starting_pitcher": "Rodriguez",
+    "roster": [
+      {
+        "name": "Arenado",
+        "position": "3B"
+      },
+      {
+        "name": "Barrosa",
+        "position": "CF"
+      },
+      {
+        "name": "Carroll",
+        "position": "RF"
+      },
+      {
+        "name": "Del Castillo",
+        "position": "DH"
+      },
+      {
+        "name": "Kepler",
+        "position": "LF"
+      },
+      {
+        "name": "Locklear",
+        "position": "1B"
+      },
+      {
+        "name": "Marte, K",
+        "position": "2B"
+      },
+      {
+        "name": "McCann",
+        "position": "C"
+      },
+      {
+        "name": "Moreno",
+        "position": "C"
+      },
+      {
+        "name": "Perdomo",
+        "position": "SS"
+      },
+      {
+        "name": "Tawa",
+        "position": "LF"
+      },
+      {
+        "name": "Vargas, I",
+        "position": "1B"
+      },
+      {
+        "name": "Waldschmidt",
+        "position": "CF"
+      }
+    ]
+  }
+}

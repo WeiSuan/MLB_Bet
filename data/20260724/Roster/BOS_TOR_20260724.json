@@ -1,0 +1,118 @@
+{
+  "BOS": {
+    "home_away": "home",
+    "starting_pitcher": "Sandoval",
+    "roster": [
+      {
+        "name": "Abreu, W",
+        "position": "RF"
+      },
+      {
+        "name": "Cheng, T",
+        "position": "SS"
+      },
+      {
+        "name": "Contreras, Wn",
+        "position": "1B"
+      },
+      {
+        "name": "Duran, Ja",
+        "position": "LF"
+      },
+      {
+        "name": "Durbin",
+        "position": "3B"
+      },
+      {
+        "name": "Gonzalez, R",
+        "position": "DH"
+      },
+      {
+        "name": "Jones, Jah",
+        "position": "OF"
+      },
+      {
+        "name": "Monasterio",
+        "position": "SS"
+      },
+      {
+        "name": "Narváez",
+        "position": "C"
+      },
+      {
+        "name": "Rafaela",
+        "position": "CF"
+      },
+      {
+        "name": "Seigler",
+        "position": "2B"
+      },
+      {
+        "name": "Wong",
+        "position": "C"
+      },
+      {
+        "name": "Yoshida",
+        "position": "DH"
+      }
+    ]
+  },
+  "TOR": {
+    "home_away": "away",
+    "starting_pitcher": "Yesavage",
+    "roster": [
+      {
+        "name": "Clement",
+        "position": "2B"
+      },
+      {
+        "name": "Giménez",
+        "position": "SS"
+      },
+      {
+        "name": "Guerrero Jr.",
+        "position": "1B"
+      },
+      {
+        "name": "Kirk",
+        "position": "C"
+      },
+      {
+        "name": "Lukes",
+        "position": "RF"
+      },
+      {
+        "name": "Okamoto",
+        "position": "3B"
+      },
+      {
+        "name": "Piñango",
+        "position": "LF"
+      },
+      {
+        "name": "Schneider",
+        "position": "LF"
+      },
+      {
+        "name": "Springer",
+        "position": "DH"
+      },
+      {
+        "name": "Straw",
+        "position": "RF"
+      },
+      {
+        "name": "Urías, L",
+        "position": "2B"
+      },
+      {
+        "name": "Valenzuela",
+        "position": "C"
+      },
+      {
+        "name": "Varsho",
+        "position": "CF"
+      }
+    ]
+  }
+}

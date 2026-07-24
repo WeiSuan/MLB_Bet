@@ -1,0 +1,157 @@
+{
+  "game_analysis": "本場賽事由光芒主場迎戰守護者。由於比賽於純室內球場（Tropicana Field）進行，天候因素可完全排除，環境本身對投手較為有利。光芒推派左投 Shane McClanahan 先發，他本季對左打的壓制力極具毀滅性（對左打被打擊率僅 .125，WHIP 0.74），而守護者打線恰好充斥大量左打（如 Steven Kwan、Travis Bazzana 等），預期將遭遇嚴重封鎖。守護者先發 Joey Cantillo 雖然三振率不俗（K/9 達 9.51），但保送率偏高（BB/9 4.42），且近五場比賽 WHIP 來到 1.50，顯示他經常處於壘上有人的危機中。面對擁有 Yandy Díaz 與 Junior Caminero 等強勢右打的光芒打線，Cantillo 在前五局失血的風險極高。綜合評估，McClanahan 能有效壓制守護者火力，而光芒打線則能從 Cantillo 不穩定的控球中獲利。我們強烈看好「光芒前5局不讓分」以及「全場獨贏」。此外，考量到 McClanahan 的壓制力，守護者「前5局單隊小分」及「全場單隊小分」也具備極高的期望值。",
+  "top_5_bets": [
+    "前5局 坦帕灣光芒 獨贏 (Moneyline)",
+    "全場 坦帕灣光芒 獨贏 (Moneyline)",
+    "前5局 克里夫蘭守護者 總得分小於 1.5",
+    "前5局 總得分小於 4.5",
+    "全場 克里夫蘭守護者 總得分小於 3.5"
+  ],
+  "predictions": {
+    "full_game": {
+      "moneyline": {
+        "home_win_probability": 0.58,
+        "away_win_probability": 0.42
+      },
+      "total_runs": {
+        "lines": [
+          {
+            "threshold": 6.5,
+            "is_primary": false,
+            "over_probability": 0.61,
+            "under_probability": 0.39
+          },
+          {
+            "threshold": 7.5,
+            "is_primary": true,
+            "over_probability": 0.46,
+            "under_probability": 0.54
+          },
+          {
+            "threshold": 8.5,
+            "is_primary": false,
+            "over_probability": 0.35,
+            "under_probability": 0.65
+          }
+        ]
+      },
+      "home_team_total_runs": {
+        "lines": [
+          {
+            "threshold": 3.5,
+            "is_primary": true,
+            "over_probability": 0.55,
+            "under_probability": 0.45
+          },
+          {
+            "threshold": 4.5,
+            "is_primary": false,
+            "over_probability": 0.42,
+            "under_probability": 0.58
+          },
+          {
+            "threshold": 5.5,
+            "is_primary": false,
+            "over_probability": 0.28,
+            "under_probability": 0.72
+          }
+        ]
+      },
+      "away_team_total_runs": {
+        "lines": [
+          {
+            "threshold": 2.5,
+            "is_primary": false,
+            "over_probability": 0.65,
+            "under_probability": 0.35
+          },
+          {
+            "threshold": 3.5,
+            "is_primary": true,
+            "over_probability": 0.48,
+            "under_probability": 0.52
+          },
+          {
+            "threshold": 4.5,
+            "is_primary": false,
+            "over_probability": 0.3,
+            "under_probability": 0.7
+          }
+        ]
+      }
+    },
+    "first_5_innings": {
+      "moneyline": {
+        "home_win_probability": 0.46,
+        "away_win_probability": 0.36,
+        "tie_probability": 0.18
+      },
+      "total_runs": {
+        "lines": [
+          {
+            "threshold": 3.5,
+            "is_primary": true,
+            "over_probability": 0.52,
+            "under_probability": 0.48
+          },
+          {
+            "threshold": 4.5,
+            "is_primary": false,
+            "over_probability": 0.35,
+            "under_probability": 0.65
+          },
+          {
+            "threshold": 5.5,
+            "is_primary": false,
+            "over_probability": 0.22,
+            "under_probability": 0.78
+          }
+        ]
+      },
+      "home_team_total_runs": {
+        "lines": [
+          {
+            "threshold": 1.5,
+            "is_primary": false,
+            "over_probability": 0.6,
+            "under_probability": 0.4
+          },
+          {
+            "threshold": 2.5,
+            "is_primary": true,
+            "over_probability": 0.41,
+            "under_probability": 0.59
+          },
+          {
+            "threshold": 3.5,
+            "is_primary": false,
+            "over_probability": 0.21,
+            "under_probability": 0.79
+          }
+        ]
+      },
+      "away_team_total_runs": {
+        "lines": [
+          {
+            "threshold": 0.5,
+            "is_primary": false,
+            "over_probability": 0.72,
+            "under_probability": 0.28
+          },
+          {
+            "threshold": 1.5,
+            "is_primary": true,
+            "over_probability": 0.45,
+            "under_probability": 0.55
+          },
+          {
+            "threshold": 2.5,
+            "is_primary": false,
+            "over_probability": 0.23,
+            "under_probability": 0.77
+          }
+        ]
+      }
+    }
+  }
+}

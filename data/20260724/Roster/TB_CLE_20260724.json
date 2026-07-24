@@ -1,0 +1,118 @@
+{
+  "TB": {
+    "home_away": "home",
+    "starting_pitcher": "McClanahan",
+    "roster": [
+      {
+        "name": "Aranda",
+        "position": "1B"
+      },
+      {
+        "name": "Caminero",
+        "position": "3B"
+      },
+      {
+        "name": "DeLuca",
+        "position": "RF"
+      },
+      {
+        "name": "Díaz, Y",
+        "position": "DH"
+      },
+      {
+        "name": "Feduccia",
+        "position": "C"
+      },
+      {
+        "name": "Fortes",
+        "position": "C"
+      },
+      {
+        "name": "Mesa Jr.",
+        "position": "RF"
+      },
+      {
+        "name": "Mullins",
+        "position": "CF"
+      },
+      {
+        "name": "Palacios, R",
+        "position": "2B"
+      },
+      {
+        "name": "Simpson",
+        "position": "LF"
+      },
+      {
+        "name": "Vilade",
+        "position": "RF"
+      },
+      {
+        "name": "Walls",
+        "position": "SS"
+      },
+      {
+        "name": "Williamson",
+        "position": "2B"
+      }
+    ]
+  },
+  "CLE": {
+    "home_away": "away",
+    "starting_pitcher": "Cantillo",
+    "roster": [
+      {
+        "name": "Arias, G",
+        "position": "3B"
+      },
+      {
+        "name": "Bailey",
+        "position": "C"
+      },
+      {
+        "name": "Bazzana",
+        "position": "2B"
+      },
+      {
+        "name": "DeLauter",
+        "position": "RF"
+      },
+      {
+        "name": "Fry",
+        "position": "RF"
+      },
+      {
+        "name": "Halpin",
+        "position": "CF"
+      },
+      {
+        "name": "Hedges",
+        "position": "C"
+      },
+      {
+        "name": "Hoskins",
+        "position": "1B"
+      },
+      {
+        "name": "Kwan",
+        "position": "CF"
+      },
+      {
+        "name": "Manzardo",
+        "position": "1B"
+      },
+      {
+        "name": "Ramírez, Jo",
+        "position": "3B"
+      },
+      {
+        "name": "Rocchio",
+        "position": "SS"
+      },
+      {
+        "name": "Schneemann",
+        "position": "CF"
+      }
+    ]
+  }
+}

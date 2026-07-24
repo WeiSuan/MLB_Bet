@@ -1,0 +1,118 @@
+{
+  "TEX": {
+    "home_away": "home",
+    "starting_pitcher": "Gore",
+    "roster": [
+      {
+        "name": "Burger",
+        "position": "1B"
+      },
+      {
+        "name": "Carter",
+        "position": "CF"
+      },
+      {
+        "name": "Cauley",
+        "position": "CF"
+      },
+      {
+        "name": "Duran, E",
+        "position": "SS"
+      },
+      {
+        "name": "Díaz, E",
+        "position": "C"
+      },
+      {
+        "name": "Foscue",
+        "position": "2B"
+      },
+      {
+        "name": "Jung, Jo",
+        "position": "3B"
+      },
+      {
+        "name": "Langford",
+        "position": "LF"
+      },
+      {
+        "name": "Lopez, N",
+        "position": "2B"
+      },
+      {
+        "name": "Nimmo",
+        "position": "RF"
+      },
+      {
+        "name": "Osuna, A",
+        "position": "LF"
+      },
+      {
+        "name": "Pederson",
+        "position": "DH"
+      },
+      {
+        "name": "Wynns, A",
+        "position": "C"
+      }
+    ]
+  },
+  "SEA": {
+    "home_away": "away",
+    "starting_pitcher": "Miller",
+    "roster": [
+      {
+        "name": "Arozarena",
+        "position": "LF"
+      },
+      {
+        "name": "Canzone",
+        "position": "DH"
+      },
+      {
+        "name": "Crawford, J",
+        "position": "SS"
+      },
+      {
+        "name": "Emerson",
+        "position": "SS"
+      },
+      {
+        "name": "Garver",
+        "position": "C"
+      },
+      {
+        "name": "Kennedy, B",
+        "position": "1B"
+      },
+      {
+        "name": "Naylor, J",
+        "position": "1B"
+      },
+      {
+        "name": "Raleigh",
+        "position": "C"
+      },
+      {
+        "name": "Raley, L",
+        "position": "RF"
+      },
+      {
+        "name": "Robles",
+        "position": "RF"
+      },
+      {
+        "name": "Rodríguez, J",
+        "position": "CF"
+      },
+      {
+        "name": "Wilson, W",
+        "position": "3B"
+      },
+      {
+        "name": "Young",
+        "position": "2B"
+      }
+    ]
+  }
+}

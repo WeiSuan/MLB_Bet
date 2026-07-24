@@ -1,0 +1,158 @@
+{
+  "game_analysis": "綜合考量雙方數據與即時狀況，本場比賽洛杉磯道奇（LAD）具備顯著優勢。先發投手方面，道奇由佐佐木朗希（Roki Sasaki）掛帥，雖然近期被全壘打率偏高（近 5 場 HR/9 達 2.88），但他仍維持穩定的三振能力（K/9 8.83），面對本季打擊率與得分皆位居聯盟後段班的大都會打線，預期能有效壓制對手的擊球初速（HardHit%）與得分預期。大都會先發 Sean Manaea 本季 ERA 4.74，且對右打者的被攻擊指數高達 .874，這在面對道奇右打群（如 Andy Pages 等）時將面臨極大挑戰，且道奇的左打群（大谷翔平、Freddie Freeman 等）面對左投同樣極具破壞力。\n\n牛棚與團隊近況方面，道奇賽季團隊防禦率 3.55 且 WHIP 僅 1.14，遠優於大都會的 4.23 與 1.31。道奇近期接連擊退強敵，狀態處於高峰；反觀大都會勝率低迷，已步入交易大限前的重建氛圍。天候方面，花旗球場（Citi Field）預期天氣晴朗（氣溫約 76°F，風速 9.2 mph），外部氣象因子對比賽無明顯干擾。\n\n在預測模型上，前五局道奇的打線能迅速對 Manaea 造成傷害，因此「前 5 局客隊獨贏」與「前 5 局客隊單隊得分大分」具備高期望值。全場方面，考量雙方牛棚的巨大差距，道奇在中後段能進一步確保領先優勢，全場客隊獨贏為本場勝率最高的量化分析標的。",
+  "best_bets": [
+    {
+      "play": "全場 客隊獨贏 (LAD ML)",
+      "reason": "道奇打線火力與牛棚深度皆明顯優於大都會，全場掌控比賽的機率高達 63%。"
+    },
+    {
+      "play": "前 5 局 客隊獨贏 (LAD ML)",
+      "reason": "Sean Manaea 對決右打者極為掙扎，道奇前段棒次有望在首輪及次輪打擊即取得領先優勢。"
+    },
+    {
+      "play": "前 5 局 客隊總得分 大分 (Over 2.5)",
+      "reason": "道奇本季平均單場得分超過 5.1 分，前五局對陣狀態不佳的 Manaea，突破 2.5 分的期望值達 55%。"
+    },
+    {
+      "play": "全場 客隊總得分 大分 (Over 4.5)",
+      "reason": "考量 Manaea 的高失分風險與大都會 4.23 的團隊防禦率，道奇全場打下 5 分以上的機率超過 57%。"
+    },
+    {
+      "play": "全場 總得分 大分 (Over 8.5)",
+      "reason": "佐佐木朗希近期挨轟率偏高，大都會亦有 Juan Soto 等重砲貢獻分數，結合道奇強勢火力，全場 8.5 大分深具投資價值。"
+    }
+  ],
+  "full_game": {
+    "moneyline": {
+      "home_win_probability": 0.37,
+      "away_win_probability": 0.63
+    },
+    "total_runs": [
+      {
+        "threshold": 7.5,
+        "is_primary": false,
+        "over_probability": 0.64,
+        "under_probability": 0.36
+      },
+      {
+        "threshold": 8.5,
+        "is_primary": true,
+        "over_probability": 0.52,
+        "under_probability": 0.48
+      },
+      {
+        "threshold": 9.5,
+        "is_primary": false,
+        "over_probability": 0.4,
+        "under_probability": 0.6
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 2.5,
+        "is_primary": false,
+        "over_probability": 0.68,
+        "under_probability": 0.32
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": true,
+        "over_probability": 0.54,
+        "under_probability": 0.46
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": false,
+        "over_probability": 0.36,
+        "under_probability": 0.64
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.7,
+        "under_probability": 0.3
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.57,
+        "under_probability": 0.43
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.42,
+        "under_probability": 0.58
+      }
+    ]
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_win_probability": 0.36,
+      "away_win_probability": 0.46,
+      "tie_probability": 0.18
+    },
+    "total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.65,
+        "under_probability": 0.35
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.53,
+        "under_probability": 0.47
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.37,
+        "under_probability": 0.63
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": true,
+        "over_probability": 0.58,
+        "under_probability": 0.42
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": false,
+        "over_probability": 0.38,
+        "under_probability": 0.62
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.22,
+        "under_probability": 0.78
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.74,
+        "under_probability": 0.26
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.55,
+        "under_probability": 0.45
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.37,
+        "under_probability": 0.63
+      }
+    ]
+  }
+}

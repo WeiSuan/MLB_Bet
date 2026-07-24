@@ -1,0 +1,170 @@
+{
+  "full_game": {
+    "moneyline": {
+      "home_win_probability": 0.68,
+      "away_win_probability": 0.32
+    },
+    "total_runs": {
+      "lines": [
+        {
+          "threshold": 6.5,
+          "is_primary": false,
+          "over_probability": 0.55,
+          "under_probability": 0.45
+        },
+        {
+          "threshold": 7.5,
+          "is_primary": true,
+          "over_probability": 0.38,
+          "under_probability": 0.62
+        },
+        {
+          "threshold": 8.5,
+          "is_primary": false,
+          "over_probability": 0.25,
+          "under_probability": 0.75
+        }
+      ]
+    },
+    "home_team_total_runs": {
+      "lines": [
+        {
+          "threshold": 3.5,
+          "is_primary": false,
+          "over_probability": 0.64,
+          "under_probability": 0.36
+        },
+        {
+          "threshold": 4.5,
+          "is_primary": true,
+          "over_probability": 0.46,
+          "under_probability": 0.54
+        },
+        {
+          "threshold": 5.5,
+          "is_primary": false,
+          "over_probability": 0.28,
+          "under_probability": 0.72
+        }
+      ]
+    },
+    "away_team_total_runs": {
+      "lines": [
+        {
+          "threshold": 2.5,
+          "is_primary": false,
+          "over_probability": 0.52,
+          "under_probability": 0.48
+        },
+        {
+          "threshold": 3.5,
+          "is_primary": true,
+          "over_probability": 0.32,
+          "under_probability": 0.68
+        },
+        {
+          "threshold": 4.5,
+          "is_primary": false,
+          "over_probability": 0.18,
+          "under_probability": 0.82
+        }
+      ]
+    }
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_win_probability": 0.64,
+      "away_win_probability": 0.22,
+      "tie_probability": 0.14
+    },
+    "total_runs": {
+      "lines": [
+        {
+          "threshold": 3.5,
+          "is_primary": false,
+          "over_probability": 0.55,
+          "under_probability": 0.45
+        },
+        {
+          "threshold": 4.5,
+          "is_primary": true,
+          "over_probability": 0.35,
+          "under_probability": 0.65
+        },
+        {
+          "threshold": 5.5,
+          "is_primary": false,
+          "over_probability": 0.2,
+          "under_probability": 0.8
+        }
+      ]
+    },
+    "home_team_total_runs": {
+      "lines": [
+        {
+          "threshold": 1.5,
+          "is_primary": false,
+          "over_probability": 0.72,
+          "under_probability": 0.28
+        },
+        {
+          "threshold": 2.5,
+          "is_primary": true,
+          "over_probability": 0.51,
+          "under_probability": 0.49
+        },
+        {
+          "threshold": 3.5,
+          "is_primary": false,
+          "over_probability": 0.31,
+          "under_probability": 0.69
+        }
+      ]
+    },
+    "away_team_total_runs": {
+      "lines": [
+        {
+          "threshold": 0.5,
+          "is_primary": false,
+          "over_probability": 0.66,
+          "under_probability": 0.34
+        },
+        {
+          "threshold": 1.5,
+          "is_primary": true,
+          "over_probability": 0.35,
+          "under_probability": 0.65
+        },
+        {
+          "threshold": 2.5,
+          "is_primary": false,
+          "over_probability": 0.16,
+          "under_probability": 0.84
+        }
+      ]
+    }
+  },
+  "top_5_bets": [
+    {
+      "bet": "全場客隊 (KC) 總得分 Under 3.5",
+      "probability": 0.68
+    },
+    {
+      "bet": "全場主隊 (DET) 獨贏",
+      "probability": 0.68
+    },
+    {
+      "bet": "前 5 局客隊 (KC) 總得分 Under 1.5",
+      "probability": 0.65
+    },
+    {
+      "bet": "前 5 局總得分 Under 4.5",
+      "probability": 0.65
+    },
+    {
+      "bet": "前 5 局主隊 (DET) 獨贏",
+      "probability": 0.64
+    }
+  ],
+  "analysis": "這場比賽量化模型呈現出一面倒的壓制局勢。首先，老虎隊派出賽揚等級王牌 Tarik Skubal，本季繳出 2.83 ERA 與 0.93 WHIP 的頂級數據，近期 5 場先發的 K/9 值高達 12.72，三振能力極強。反觀皇家隊預計派出 Noah Cameron (ERA 5.27, WHIP 1.46) 擔任常規先發，雙方在首輪與次輪的壓制力有著顯著的鴻溝。\n\n打線方面，皇家在 7 月 22 日將陣中核心 MVP 級游擊手 Bobby Witt Jr. 放入 10 天傷兵名單，這對球隊是毀滅性打擊（註：目前尚未有最終確認打線，此以最新預估名單與傷兵報告為準）。失去 Witt 後，皇家缺乏能有效對抗頂級左投的右打火力，整體 wOBA 與 HardHit% 預期將大幅下修。再者，今日 Comerica Park 的天候預測為晴朗且微風向內野吹，進一步加深了這座大球場的「偏投手」屬性，不利於長打的產生。\n\n綜合以上外部變數與進階數據，Skubal 的高 Whiff% 預計將徹底封鎖殘缺的皇家打線，因此前 5 局及全場的「客隊單隊小分」擁有極高的期望值。同時，前 5 局的風險模型排除了牛棚的不確定性，老虎隊前 5 局與全場的獨贏盤口也具備高度投資價值。精選推薦以皇家小分與老虎勝出為主軸。"
+}

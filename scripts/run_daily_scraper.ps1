@@ -41,11 +41,11 @@ $steps = @(
         Path = Join-Path $projectRoot 'src/scrapers/mlb_playwright_scraper.py'
         Args = @()
     },
-    @{
-        Name = 'Sports Lottery Bet Scraper'
-        Path = Join-Path $projectRoot 'src/scrapers/sportslottery_baseball_bet_scraper.py'
-        Args = @()
-    },
+    # @{
+    #     Name = 'Sports Lottery Bet Scraper'
+    #     Path = Join-Path $projectRoot 'src/scrapers/sportslottery_baseball_bet_scraper.py'
+    #     Args = @()
+    # },
     @{
         Name = 'Roster Player Data Enricher'
         Path = Join-Path $projectRoot 'src/enrichers/roster_player_data_enricher.py'

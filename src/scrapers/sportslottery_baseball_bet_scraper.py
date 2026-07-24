@@ -250,6 +250,62 @@ def is_security_challenge(page: Page) -> bool:
 	)
 
 
+def is_connection_error_page(page: Page) -> bool:
+	url = (page.url or "").lower()
+	title = (page.title() or "").strip().lower()
+
+	if url.startswith("chrome-error://") or "about:neterror" in url:
+		return True
+
+	body_text = page.evaluate(
+		"""
+		() => (document.body?.innerText || '').toLowerCase()
+		"""
+	)
+
+	error_markers = [
+		"err_connection_refused",
+		"err_connection_reset",
+		"err_name_not_resolved",
+		"this site can't be reached",
+		"this page isn't working",
+		"無法連上這個網站",
+		"連線失敗",
+		"拒絕連線",
+	]
+	if any(marker in body_text for marker in error_markers):
+		return True
+
+	if "connection refused" in title or "cannot reach" in title:
+		return True
+
+	return False
+
+
+def load_event_links_with_retries(page: Page, max_attempts: int = 5) -> list[str]:
+	for attempt in range(max_attempts):
+		if is_connection_error_page(page):
+			print(f"Detected browser connection error page. Recover attempt {attempt + 1}/{max_attempts}...")
+			page.goto(SPORT_URL, wait_until="domcontentloaded")
+			page.wait_for_timeout(1800)
+
+		if "/sportsbook/sport/" not in (page.url or ""):
+			page.goto(SPORT_URL, wait_until="domcontentloaded")
+			page.wait_for_timeout(1200)
+
+		scroll_for_full_listing(page)
+		event_links = collect_event_links(page)
+		if event_links:
+			return event_links
+
+		if attempt < max_attempts - 1:
+			print(f"No event links found, reloading page ({attempt + 1}/{max_attempts})...")
+			page.reload(wait_until="domcontentloaded")
+			page.wait_for_timeout(1500)
+
+	return []
+
+
 def is_env_true(raw_value: str | None) -> bool:
 	if raw_value is None:
 		return False
@@ -267,8 +323,18 @@ def parse_matchup(label_text: str) -> tuple[str, str]:
 
 
 def extract_event_data(page: Page, url: str) -> dict[str, Any]:
-	page.goto(url, wait_until="domcontentloaded")
-	page.wait_for_timeout(1200)
+	loaded = False
+	for attempt in range(3):
+		page.goto(url, wait_until="domcontentloaded")
+		page.wait_for_timeout(1200)
+		if is_connection_error_page(page):
+			print(f"Event page connection error. Retry {attempt + 1}/3: {url}")
+			continue
+		loaded = True
+		break
+
+	if not loaded:
+		raise RuntimeError("event page connection error")
 
 	try:
 		page.get_by_role("button", name="All Markets").click(timeout=2500)
@@ -489,9 +555,7 @@ def main() -> None:
 					"Please rerun and complete verification in the opened browser window."
 				)
 
-		scroll_for_full_listing(page)
-
-		event_links = collect_event_links(page)
+		event_links = load_event_links_with_retries(page)
 		if not event_links:
 			frame_candidates: list[str] = []
 			frame_urls: list[str] = []

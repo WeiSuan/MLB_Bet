@@ -1,0 +1,65 @@
+{
+  "BAL": {
+    "home_away": "home",
+    "starting_pitcher": "",
+    "roster": [
+      {
+        "name": "Alonso",
+        "position": "1B"
+      },
+      {
+        "name": "Beavers",
+        "position": "RF"
+      },
+      {
+        "name": "Cowser",
+        "position": "CF"
+      },
+      {
+        "name": "Encarnacion-Strand",
+        "position": "1B"
+      },
+      {
+        "name": "Henderson",
+        "position": "SS"
+      },
+      {
+        "name": "Holliday",
+        "position": "2B"
+      },
+      {
+        "name": "Huff",
+        "position": "C"
+      },
+      {
+        "name": "Jackson, J",
+        "position": "2B"
+      },
+      {
+        "name": "Mayo",
+        "position": "3B"
+      },
+      {
+        "name": "O'Neill",
+        "position": "RF"
+      },
+      {
+        "name": "Taveras, L",
+        "position": "CF"
+      },
+      {
+        "name": "Tromp",
+        "position": "C"
+      },
+      {
+        "name": "Ward, T",
+        "position": "LF"
+      }
+    ]
+  },
+  "ATL": {
+    "home_away": "away",
+    "starting_pitcher": "Holmes",
+    "roster": []
+  }
+}

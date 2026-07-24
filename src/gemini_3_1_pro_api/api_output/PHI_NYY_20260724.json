@@ -1,0 +1,138 @@
+{
+  "analysis_summary": "本場比賽在量化模型與外部變數評估下，前5局（1-5局）存在極大結構性期望值落差。首先，洋基隊本場採取『假性先發（Opener）與牛棚車輪戰』，先發投手 Austin Warren 本季26場出賽僅2場先發，且近期狀態極度低迷（近5場 ERA 高達 11.57，BB/9 達 6.43）。其高保送率與失投風險，極易在首輪面對費城人前段核心打線時大量失血。反觀費城人先發 Jesús Luzardo 正值顛峰，本季 K/9 達 11.16，近5場更飆升至 13.35，且 ERA 僅 1.16。更關鍵的是，Luzardo 對左打具備統治級壓制力（對手 OPS 僅 .425），這將完美封鎖洋基極度依賴的左打群（如 Ben Rice, Cody Bellinger, Jazz Chisholm Jr.），大幅下修洋基前段局數的預期得分（xR）。基於『1-5局優先原則』與假性先發的劣勢，本場精選勝率最高前5玩法為：1. 前5局費城人獨贏（62%）；2. 前5局洋基總得分小於1.5（55%）；3. 前5局費城人總得分大於2.5（56%）；4. 全場費城人獨贏（58%）；5. 全場洋基總得分小於3.5（52%）。",
+  "predictions": {
+    "full_game": {
+      "moneyline": {
+        "home_probability": 0.58,
+        "away_probability": 0.42
+      },
+      "total_runs": [
+        {
+          "threshold": 7.5,
+          "is_primary": false,
+          "over_probability": 0.58,
+          "under_probability": 0.42
+        },
+        {
+          "threshold": 8.5,
+          "is_primary": true,
+          "over_probability": 0.48,
+          "under_probability": 0.52
+        },
+        {
+          "threshold": 9.5,
+          "is_primary": false,
+          "over_probability": 0.38,
+          "under_probability": 0.62
+        }
+      ],
+      "home_team_total_runs": [
+        {
+          "threshold": 3.5,
+          "is_primary": false,
+          "over_probability": 0.62,
+          "under_probability": 0.38
+        },
+        {
+          "threshold": 4.5,
+          "is_primary": true,
+          "over_probability": 0.52,
+          "under_probability": 0.48
+        },
+        {
+          "threshold": 5.5,
+          "is_primary": false,
+          "over_probability": 0.4,
+          "under_probability": 0.6
+        }
+      ],
+      "away_team_total_runs": [
+        {
+          "threshold": 2.5,
+          "is_primary": false,
+          "over_probability": 0.62,
+          "under_probability": 0.38
+        },
+        {
+          "threshold": 3.5,
+          "is_primary": true,
+          "over_probability": 0.48,
+          "under_probability": 0.52
+        },
+        {
+          "threshold": 4.5,
+          "is_primary": false,
+          "over_probability": 0.35,
+          "under_probability": 0.65
+        }
+      ]
+    },
+    "first_5_innings": {
+      "moneyline": {
+        "home_probability": 0.62,
+        "away_probability": 0.26,
+        "tie_probability": 0.12
+      },
+      "total_runs": [
+        {
+          "threshold": 3.5,
+          "is_primary": false,
+          "over_probability": 0.6,
+          "under_probability": 0.4
+        },
+        {
+          "threshold": 4.5,
+          "is_primary": true,
+          "over_probability": 0.52,
+          "under_probability": 0.48
+        },
+        {
+          "threshold": 5.5,
+          "is_primary": false,
+          "over_probability": 0.41,
+          "under_probability": 0.59
+        }
+      ],
+      "home_team_total_runs": [
+        {
+          "threshold": 1.5,
+          "is_primary": false,
+          "over_probability": 0.68,
+          "under_probability": 0.32
+        },
+        {
+          "threshold": 2.5,
+          "is_primary": true,
+          "over_probability": 0.56,
+          "under_probability": 0.44
+        },
+        {
+          "threshold": 3.5,
+          "is_primary": false,
+          "over_probability": 0.42,
+          "under_probability": 0.58
+        }
+      ],
+      "away_team_total_runs": [
+        {
+          "threshold": 0.5,
+          "is_primary": false,
+          "over_probability": 0.65,
+          "under_probability": 0.35
+        },
+        {
+          "threshold": 1.5,
+          "is_primary": true,
+          "over_probability": 0.45,
+          "under_probability": 0.55
+        },
+        {
+          "threshold": 2.5,
+          "is_primary": false,
+          "over_probability": 0.25,
+          "under_probability": 0.75
+        }
+      ]
+    }
+  }
+}

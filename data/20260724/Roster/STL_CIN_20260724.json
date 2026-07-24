@@ -1,0 +1,118 @@
+{
+  "STL": {
+    "home_away": "home",
+    "starting_pitcher": "May",
+    "roster": [
+      {
+        "name": "Burleson",
+        "position": "1B"
+      },
+      {
+        "name": "Church",
+        "position": "CF"
+      },
+      {
+        "name": "Crooks",
+        "position": "C"
+      },
+      {
+        "name": "Fermín",
+        "position": "LF"
+      },
+      {
+        "name": "Herrera",
+        "position": "DH"
+      },
+      {
+        "name": "Jordan",
+        "position": "3B"
+      },
+      {
+        "name": "Nootbaar",
+        "position": "LF"
+      },
+      {
+        "name": "Pagés, P",
+        "position": "C"
+      },
+      {
+        "name": "Torres, B",
+        "position": "LF"
+      },
+      {
+        "name": "Velázquez, N",
+        "position": "LF"
+      },
+      {
+        "name": "Walker, J",
+        "position": "RF"
+      },
+      {
+        "name": "Wetherholt",
+        "position": "2B"
+      },
+      {
+        "name": "Winn",
+        "position": "SS"
+      }
+    ]
+  },
+  "CIN": {
+    "home_away": "away",
+    "starting_pitcher": "Lowder",
+    "roster": [
+      {
+        "name": "Arroyo",
+        "position": "2B"
+      },
+      {
+        "name": "Bleday",
+        "position": "LF"
+      },
+      {
+        "name": "De La Cruz, E",
+        "position": "SS"
+      },
+      {
+        "name": "Friedl",
+        "position": "CF"
+      },
+      {
+        "name": "Hayes",
+        "position": "3B"
+      },
+      {
+        "name": "Lowe, N",
+        "position": "DH"
+      },
+      {
+        "name": "Marte, N",
+        "position": "RF"
+      },
+      {
+        "name": "Myers",
+        "position": "CF"
+      },
+      {
+        "name": "Steer",
+        "position": "1B"
+      },
+      {
+        "name": "Stephenson, T",
+        "position": "C"
+      },
+      {
+        "name": "Stewart, S",
+        "position": "1B"
+      },
+      {
+        "name": "Suárez, E",
+        "position": "DH"
+      },
+      {
+        "name": "Trevino",
+        "position": "C"
+      }
+    ]
+  }
+}

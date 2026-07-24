@@ -1,0 +1,143 @@
+{
+  "full_game": {
+    "moneyline": {
+      "home_win_probability": 0.47,
+      "away_win_probability": 0.53
+    },
+    "total_runs": [
+      {
+        "threshold": 6.5,
+        "over_probability": 0.59,
+        "under_probability": 0.41,
+        "is_primary": false
+      },
+      {
+        "threshold": 7.5,
+        "over_probability": 0.44,
+        "under_probability": 0.56,
+        "is_primary": true
+      },
+      {
+        "threshold": 8.5,
+        "over_probability": 0.31,
+        "under_probability": 0.69,
+        "is_primary": false
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 2.5,
+        "over_probability": 0.66,
+        "under_probability": 0.34,
+        "is_primary": false
+      },
+      {
+        "threshold": 3.5,
+        "over_probability": 0.43,
+        "under_probability": 0.57,
+        "is_primary": true
+      },
+      {
+        "threshold": 4.5,
+        "over_probability": 0.24,
+        "under_probability": 0.76,
+        "is_primary": false
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 2.5,
+        "over_probability": 0.71,
+        "under_probability": 0.29,
+        "is_primary": false
+      },
+      {
+        "threshold": 3.5,
+        "over_probability": 0.51,
+        "under_probability": 0.49,
+        "is_primary": true
+      },
+      {
+        "threshold": 4.5,
+        "over_probability": 0.32,
+        "under_probability": 0.68,
+        "is_primary": false
+      }
+    ]
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_win_probability": 0.35,
+      "away_win_probability": 0.44,
+      "tie_probability": 0.21
+    },
+    "total_runs": [
+      {
+        "threshold": 2.5,
+        "over_probability": 0.62,
+        "under_probability": 0.38,
+        "is_primary": false
+      },
+      {
+        "threshold": 3.5,
+        "over_probability": 0.42,
+        "under_probability": 0.58,
+        "is_primary": true
+      },
+      {
+        "threshold": 4.5,
+        "over_probability": 0.23,
+        "under_probability": 0.77,
+        "is_primary": false
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 0.5,
+        "over_probability": 0.72,
+        "under_probability": 0.28,
+        "is_primary": false
+      },
+      {
+        "threshold": 1.5,
+        "over_probability": 0.42,
+        "under_probability": 0.58,
+        "is_primary": true
+      },
+      {
+        "threshold": 2.5,
+        "over_probability": 0.19,
+        "under_probability": 0.81,
+        "is_primary": false
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 0.5,
+        "over_probability": 0.78,
+        "under_probability": 0.22,
+        "is_primary": false
+      },
+      {
+        "threshold": 1.5,
+        "over_probability": 0.56,
+        "under_probability": 0.44,
+        "is_primary": true
+      },
+      {
+        "threshold": 2.5,
+        "over_probability": 0.28,
+        "under_probability": 0.72,
+        "is_primary": false
+      }
+    ]
+  },
+  "top_5_bets": [
+    "前 5 局 洛杉磯天使 (LAA) 不讓分勝 (ML)",
+    "前 5 局 總分小於 3.5 分 (Under 3.5)",
+    "前 5 局 舊金山巨人 (SF) 單隊小於 1.5 分 (Under 1.5)",
+    "全場 總分小於 7.5 分 (Under 7.5)",
+    "全場 洛杉磯天使 (LAA) 不讓分勝 (ML)"
+  ],
+  "analysis": "本場比賽最大的變數在於舊金山巨人（SF）採用了「假性先發（Opener）」策略，派出本季後援出賽 44 場、0 先發的 Jacob Webb 打頭陣，預計這將是一場純粹的牛棚車輪戰。相比之下，洛杉磯天使（LAA）派出的正牌先發 Eduardo Rodriguez 本季表現極為出色，主投 116.2 局繳出 2.62 ERA、1.22 WHIP 與極佳的局數吃下能力（平均 5.8 局）。在「1-5局優先原則」下，LAA 具備絕對的先發壓制力優勢，前 5 局勝率顯著領先。\n\n從打線與環境因子來看，透過即時檢索，今日甲骨文球場（Oracle Park）天候約 66°F 且伴隨海風，本身即是極端偏向投手的環境。兩隊近 10 場進攻狀況均低迷（LAA 場均僅 2.7 分，SF 場均 4.0 分），且巨人打線如 Arraez, Devers 等核心左打在面對左投 Rodriguez 時，將面臨左右對戰劣勢壓制，得分期望值需進一步下修。\n\n綜合以上量化數據與牛棚風險評估，除了強烈看好 LAA 贏下前 5 局與全場外，前 5 局與全場的「小分」盤口（如 F5 低於 3.5 分、全場低於 7.5 分）同樣具備極高的期望值與投注價值，特別是巨人單隊的前 5 局得分，預期將被對手徹底封鎖。"
+}

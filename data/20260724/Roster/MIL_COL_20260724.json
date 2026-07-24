@@ -1,0 +1,118 @@
+{
+  "MIL": {
+    "home_away": "home",
+    "starting_pitcher": "Drohan",
+    "roster": [
+      {
+        "name": "Bauers",
+        "position": "1B"
+      },
+      {
+        "name": "Chourio, J",
+        "position": "LF"
+      },
+      {
+        "name": "Contreras, Wm",
+        "position": "C"
+      },
+      {
+        "name": "Lara",
+        "position": "CF"
+      },
+      {
+        "name": "Mitchell",
+        "position": "CF"
+      },
+      {
+        "name": "Ortiz, J",
+        "position": "SS"
+      },
+      {
+        "name": "Perkins, B",
+        "position": "CF"
+      },
+      {
+        "name": "Pratt",
+        "position": "SS"
+      },
+      {
+        "name": "Shewmake",
+        "position": "SS"
+      },
+      {
+        "name": "Sánchez",
+        "position": "C"
+      },
+      {
+        "name": "Turang",
+        "position": "2B"
+      },
+      {
+        "name": "Vaughn",
+        "position": "1B"
+      },
+      {
+        "name": "Yelich",
+        "position": "DH"
+      }
+    ]
+  },
+  "COL": {
+    "home_away": "away",
+    "starting_pitcher": "Sugano",
+    "roster": [
+      {
+        "name": "Carrigg",
+        "position": "CF"
+      },
+      {
+        "name": "Castro, W",
+        "position": "2B"
+      },
+      {
+        "name": "Freeman, T",
+        "position": "RF"
+      },
+      {
+        "name": "Fulford",
+        "position": "DH"
+      },
+      {
+        "name": "Goodman",
+        "position": "C"
+      },
+      {
+        "name": "Johnston, T",
+        "position": "RF"
+      },
+      {
+        "name": "Julien",
+        "position": "2B"
+      },
+      {
+        "name": "Karros, K",
+        "position": "3B"
+      },
+      {
+        "name": "McCarthy",
+        "position": "CF"
+      },
+      {
+        "name": "Moniak",
+        "position": "LF"
+      },
+      {
+        "name": "Rumfield",
+        "position": "1B"
+      },
+      {
+        "name": "Sullivan, B",
+        "position": "C"
+      },
+      {
+        "name": "Tovar",
+        "position": "SS"
+      }
+    ]
+  }
+}

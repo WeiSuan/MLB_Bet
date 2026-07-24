@@ -1,0 +1,143 @@
+{
+  "full_game": {
+    "moneyline": {
+      "home_win_probability": 0.43,
+      "away_win_probability": 0.57
+    },
+    "total_runs": [
+      {
+        "threshold": 8.5,
+        "is_primary": false,
+        "over_probability": 0.59,
+        "under_probability": 0.41
+      },
+      {
+        "threshold": 9.5,
+        "is_primary": true,
+        "over_probability": 0.51,
+        "under_probability": 0.49
+      },
+      {
+        "threshold": 10.5,
+        "is_primary": false,
+        "over_probability": 0.42,
+        "under_probability": 0.58
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.59,
+        "under_probability": 0.41
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.46,
+        "under_probability": 0.54
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.34,
+        "under_probability": 0.66
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.67,
+        "under_probability": 0.33
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.56,
+        "under_probability": 0.44
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.43,
+        "under_probability": 0.57
+      }
+    ]
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_win_probability": 0.36,
+      "away_win_probability": 0.51,
+      "tie_probability": 0.13
+    },
+    "total_runs": [
+      {
+        "threshold": 4.5,
+        "is_primary": false,
+        "over_probability": 0.61,
+        "under_probability": 0.39
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": true,
+        "over_probability": 0.5,
+        "under_probability": 0.5
+      },
+      {
+        "threshold": 6.5,
+        "is_primary": false,
+        "over_probability": 0.41,
+        "under_probability": 0.59
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.58,
+        "under_probability": 0.42
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.43,
+        "under_probability": 0.57
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.28,
+        "under_probability": 0.72
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.69,
+        "under_probability": 0.31
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.55,
+        "under_probability": 0.45
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.39,
+        "under_probability": 0.61
+      }
+    ]
+  },
+  "top_5_bets": [
+    "前5局 獨贏 - 響尾蛇 (勝率預估 51%)",
+    "前5局 客隊總得分 - 大於 2.5 (勝率預估 55%)",
+    "全場 獨贏 - 響尾蛇 (勝率預估 57%)",
+    "全場 客隊總得分 - 大於 4.5 (勝率預估 56%)",
+    "前5局 總得分 - 大於 4.5 (勝率預估 61%)"
+  ],
+  "analysis": "根據定量數據與即時檢索資訊，本場比賽最大的勝負分水嶺在於雙方先發投手的策略佈局。國民隊名義上的先發投手 Carson Palmquist 賽季出賽 7 場僅投 11.1 局（場均 1.62 局），防禦率高達 8.74，屬於典型的「假性先發（Opener）」或牛棚車輪戰。國民隊牛棚賽季防禦率達 4.79，面對近 10 場狂掃 8 勝、場均攻下 7.3 分 的響尾蛇打線，前段局數即面臨極高的失分風險。反觀響尾蛇先發 Eduardo Rodriguez 賽季防禦率 2.62，具備穩定吃局數的能力，不僅拉開了前 5 局的對位優勢，其面對左打的出色壓制力（左打對戰 OPS 僅 .612）亦能有效限制國民核心打者 James Wood 與 CJ Abrams。此外，7 月華盛頓的高溫高濕天候有利於擊球飛行，進一步推升了客隊大分的期望值。整體而言，以前 5 局響尾蛇獨贏及客隊單隊大分為最具投資價值的量化標的。"
+}

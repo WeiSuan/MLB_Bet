@@ -1,0 +1,114 @@
+{
+  "PIT": {
+    "home_away": "home",
+    "starting_pitcher": "Jones",
+    "roster": [
+      {
+        "name": "Callihan, T",
+        "position": "LF"
+      },
+      {
+        "name": "Cook, B",
+        "position": "CF"
+      },
+      {
+        "name": "Davis, H",
+        "position": "C"
+      },
+      {
+        "name": "Flores Jr.",
+        "position": "C"
+      },
+      {
+        "name": "Gonzales, N",
+        "position": "3B"
+      },
+      {
+        "name": "Gonzalez, J",
+        "position": "1B"
+      },
+      {
+        "name": "Lowe, B",
+        "position": "2B"
+      },
+      {
+        "name": "Mangum",
+        "position": "CF"
+      },
+      {
+        "name": "O'Hearn",
+        "position": "RF"
+      },
+      {
+        "name": "Ozuna",
+        "position": "DH"
+      },
+      {
+        "name": "Reynolds, B",
+        "position": "LF"
+      },
+      {
+        "name": "Triolo",
+        "position": "SS"
+      },
+      {
+        "name": "Valdez, Es",
+        "position": "RF"
+      }
+    ]
+  },
+  "CHC": {
+    "home_away": "away",
+    "starting_pitcher": "Boyd",
+    "roster": [
+      {
+        "name": "Amaya",
+        "position": "C"
+      },
+      {
+        "name": "Bregman",
+        "position": "3B"
+      },
+      {
+        "name": "Busch",
+        "position": "1B"
+      },
+      {
+        "name": "Conforto",
+        "position": "DH"
+      },
+      {
+        "name": "Crow-Armstrong",
+        "position": "CF"
+      },
+      {
+        "name": "Dean",
+        "position": "CF"
+      },
+      {
+        "name": "Happ",
+        "position": "LF"
+      },
+      {
+        "name": "Hoerner",
+        "position": "2B"
+      },
+      {
+        "name": "Kelly, C",
+        "position": "C"
+      },
+      {
+        "name": "Ramírez",
+        "position": "2B"
+      },
+      {
+        "name": "Suzuki",
+        "position": "RF"
+      },
+      {
+        "name": "Swanson",
+        "position": "SS"
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "full_game": {
+    "moneyline": {
+      "home_win_probability": 0.53,
+      "away_win_probability": 0.47
+    },
+    "total_runs": [
+      {
+        "threshold": 8.5,
+        "is_primary": false,
+        "over_probability": 0.62,
+        "under_probability": 0.38
+      },
+      {
+        "threshold": 9.5,
+        "is_primary": true,
+        "over_probability": 0.52,
+        "under_probability": 0.48
+      },
+      {
+        "threshold": 10.5,
+        "is_primary": false,
+        "over_probability": 0.42,
+        "under_probability": 0.58
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.68,
+        "under_probability": 0.32
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.55,
+        "under_probability": 0.45
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.42,
+        "under_probability": 0.58
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.61,
+        "under_probability": 0.39
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.48,
+        "under_probability": 0.52
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.35,
+        "under_probability": 0.65
+      }
+    ]
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_win_probability": 0.44,
+      "away_win_probability": 0.42,
+      "tie_probability": 0.14
+    },
+    "total_runs": [
+      {
+        "threshold": 4.5,
+        "is_primary": false,
+        "over_probability": 0.63,
+        "under_probability": 0.37
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": true,
+        "over_probability": 0.51,
+        "under_probability": 0.49
+      },
+      {
+        "threshold": 6.5,
+        "is_primary": false,
+        "over_probability": 0.39,
+        "under_probability": 0.61
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.72,
+        "under_probability": 0.28
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.57,
+        "under_probability": 0.43
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.38,
+        "under_probability": 0.62
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.65,
+        "under_probability": 0.35
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.49,
+        "under_probability": 0.51
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.32,
+        "under_probability": 0.68
+      }
+    ]
+  },
+  "top_5_recommendations": [
+    {
+      "rank": 1,
+      "bet": "前 5 局 - 主隊總得分 大於 2.5",
+      "win_probability": 0.57
+    },
+    {
+      "rank": 2,
+      "bet": "前 5 局 - 總得分 大於 4.5",
+      "win_probability": 0.63
+    },
+    {
+      "rank": 3,
+      "bet": "全場 - 主隊總得分 大於 4.5",
+      "win_probability": 0.55
+    },
+    {
+      "rank": 4,
+      "bet": "前 5 局 - 獨贏盤 主隊 (STL)",
+      "win_probability": 0.44
+    },
+    {
+      "rank": 5,
+      "bet": "全場 - 總得分 大於 8.5",
+      "win_probability": 0.62
+    }
+  ],
+  "analysis_and_reasoning": "根據量化數據與近期狀態分析，本場比賽最大的變數在於兩隊的先發投手安排與近況表現。首先，主隊紅雀隊（STL）派出左投 Tim Mayza 擔綱先發，從其本季 39 場出賽僅有 3 場先發且平均每場投球局數僅 1.15 局來看，這是一場典型的「假性先發」與牛棚車輪戰。Mayza 近 5 場 ERA 高達 10.5，前段局數具備相當高的失分風險。另一方面，客隊紅人隊（CIN）先發投手 Rhett Lowder 本季表現掙扎，ERA 達 5.75，且近 5 場 ERA 飆升至 9.64，WHIP 更高達 2.357，顯示他極度缺乏壓制力，容易在比賽前段被大量取分。考量到 Lowder 極高的保送率（BB/9 4.38）與偏高的被打擊率，紅雀打線（如 OPS 突破 .800 的 Burleson 與近況穩定的 Wetherholt）有極高機率在前兩輪打擊就攻下大局。\n\n在預估模型中，由於兩隊在前 5 局皆存在明顯的防守與投球漏洞，我們將前 5 局的總得分與主隊得分的權重上調。特別是『前 5 局 主隊總得分 大於 2.5』以及『前 5 局 總得分 大於 4.5』具備極佳的期望值。全場方面，即便紅雀動用牛棚車輪戰，紅人打線近期火力偏弱（近 10 場得失分差為 -6），紅雀仍在主場優勢及較佳的打線深度下，擁有較高的獨贏機率。綜合盛夏的氣候因素有利於擊球，本場強烈建議鎖定前 5 局及全場的主隊大分相關盤口。"
+}

@@ -1,0 +1,143 @@
+{
+  "full_game": {
+    "moneyline": {
+      "home_win_probability": 0.54,
+      "away_win_probability": 0.46
+    },
+    "total_runs": [
+      {
+        "threshold": 7.5,
+        "is_primary": false,
+        "over_probability": 0.65,
+        "under_probability": 0.35
+      },
+      {
+        "threshold": 8.5,
+        "is_primary": true,
+        "over_probability": 0.56,
+        "under_probability": 0.44
+      },
+      {
+        "threshold": 9.5,
+        "is_primary": false,
+        "over_probability": 0.46,
+        "under_probability": 0.54
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.62,
+        "under_probability": 0.38
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.52,
+        "under_probability": 0.48
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.41,
+        "under_probability": 0.59
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.6,
+        "under_probability": 0.4
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.49,
+        "under_probability": 0.51
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.39,
+        "under_probability": 0.61
+      }
+    ]
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_win_probability": 0.44,
+      "away_win_probability": 0.42,
+      "tie_probability": 0.14
+    },
+    "total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.66,
+        "under_probability": 0.34
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.55,
+        "under_probability": 0.45
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.43,
+        "under_probability": 0.57
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.7,
+        "under_probability": 0.3
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.53,
+        "under_probability": 0.47
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.35,
+        "under_probability": 0.65
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.68,
+        "under_probability": 0.32
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.48,
+        "under_probability": 0.52
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.31,
+        "under_probability": 0.69
+      }
+    ]
+  },
+  "top_5_bets": [
+    "1. 1-5局 總得分 大分 (Over 4.5)",
+    "2. 1-5局 主隊總得分 大分 (Over 2.5)",
+    "3. 全場 總得分 大分 (Over 8.5)",
+    "4. 全場 主隊獨贏 (MIA ML)",
+    "5. 1-5局 客隊總得分 大分 (Over 1.5)"
+  ],
+  "analysis": "本場賽事最大的量化特徵在於雙方先發投手與打線的極端對位。教士派出 Germán Márquez 先發，其本季防禦率高達 5.24，且存在極為嚴重的「恐左」症狀——面對左打者被長打率高達 .604，OPS 來到 .990，24局內狂挨8轟。馬林魚打線雖處於9連敗低潮，但陣中包含 Kyle Stowers、Joe Mack 等多名具備長打能力的左打與左右開弓打者，前5局極高機率能針對 Márquez 的弱點製造大局。另一方面，馬林魚本場因先發輪值空缺，官方宣佈為 TBD，預計極大機率採用牛棚車輪戰（假性先發）應對。儘管馬林魚後援具備一定三振能力，但牛棚在連敗期間已過度消耗；而教士打線近10場場均得分高達 6.3 分，火力正值顛峰，同樣有極大機會在比賽前段取分。綜合 loanDepot park 封閉式屋頂的恆溫環境（無風勢干擾） 與雙方投手不穩定型態，模型強烈看好前5局將演變為打擊戰。因此，在前5局與全場的總得分盤口上，大分具備極高的期望值，主推前5局大分與主隊大分。"
+}

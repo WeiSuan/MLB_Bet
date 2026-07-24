@@ -1,0 +1,65 @@
+{
+  "MIA": {
+    "home_away": "home",
+    "starting_pitcher": "",
+    "roster": [
+      {
+        "name": "Conine",
+        "position": "LF"
+      },
+      {
+        "name": "Edwards, X",
+        "position": "2B"
+      },
+      {
+        "name": "Hernández, H",
+        "position": "LF"
+      },
+      {
+        "name": "Hicks, L",
+        "position": "C"
+      },
+      {
+        "name": "Jiménez, L",
+        "position": "3B"
+      },
+      {
+        "name": "Lopez, O",
+        "position": "SS"
+      },
+      {
+        "name": "Mack",
+        "position": "C"
+      },
+      {
+        "name": "Marsee",
+        "position": "CF"
+      },
+      {
+        "name": "Navarreto",
+        "position": "C"
+      },
+      {
+        "name": "Pauley",
+        "position": "3B"
+      },
+      {
+        "name": "Ruiz, E",
+        "position": "RF"
+      },
+      {
+        "name": "Sanoja",
+        "position": "3B"
+      },
+      {
+        "name": "Stowers",
+        "position": "LF"
+      }
+    ]
+  },
+  "SD": {
+    "home_away": "away",
+    "starting_pitcher": "Márquez",
+    "roster": []
+  }
+}

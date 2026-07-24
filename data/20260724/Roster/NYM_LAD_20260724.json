@@ -1,0 +1,118 @@
+{
+  "NYM": {
+    "home_away": "home",
+    "starting_pitcher": "Manaea",
+    "roster": [
+      {
+        "name": "Alvarez, F",
+        "position": "C"
+      },
+      {
+        "name": "Baty",
+        "position": "3B"
+      },
+      {
+        "name": "Benge",
+        "position": "RF"
+      },
+      {
+        "name": "Bichette",
+        "position": "3B"
+      },
+      {
+        "name": "Ewing",
+        "position": "CF"
+      },
+      {
+        "name": "Lindor",
+        "position": "SS"
+      },
+      {
+        "name": "Polanco",
+        "position": "DH"
+      },
+      {
+        "name": "Robert Jr.",
+        "position": "CF"
+      },
+      {
+        "name": "Semien",
+        "position": "2B"
+      },
+      {
+        "name": "Soto, J",
+        "position": "LF"
+      },
+      {
+        "name": "Taylor, T",
+        "position": "CF"
+      },
+      {
+        "name": "Torrens",
+        "position": "C"
+      },
+      {
+        "name": "Young, J",
+        "position": "1B"
+      }
+    ]
+  },
+  "LAD": {
+    "home_away": "away",
+    "starting_pitcher": "Sasaki",
+    "roster": [
+      {
+        "name": "Alfonzo",
+        "position": "C"
+      },
+      {
+        "name": "Betts",
+        "position": "SS"
+      },
+      {
+        "name": "Call",
+        "position": "LF"
+      },
+      {
+        "name": "Edman",
+        "position": "LF"
+      },
+      {
+        "name": "Freeland, A",
+        "position": "2B"
+      },
+      {
+        "name": "Freeman, F",
+        "position": "1B"
+      },
+      {
+        "name": "Hernández, T",
+        "position": "LF"
+      },
+      {
+        "name": "Muncy",
+        "position": "3B"
+      },
+      {
+        "name": "Ohtani",
+        "position": "TWP"
+      },
+      {
+        "name": "Pages, A",
+        "position": "CF"
+      },
+      {
+        "name": "Rojas, M",
+        "position": "SS"
+      },
+      {
+        "name": "Rushing",
+        "position": "C"
+      },
+      {
+        "name": "Tucker",
+        "position": "RF"
+      }
+    ]
+  }
+}

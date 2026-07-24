@@ -1,0 +1,143 @@
+{
+  "full_game": {
+    "moneyline": {
+      "home_probability": 0.47,
+      "away_probability": 0.53
+    },
+    "total_runs": [
+      {
+        "threshold": 7.5,
+        "is_primary": false,
+        "over_probability": 0.59,
+        "under_probability": 0.41
+      },
+      {
+        "threshold": 8.5,
+        "is_primary": true,
+        "over_probability": 0.48,
+        "under_probability": 0.52
+      },
+      {
+        "threshold": 9.5,
+        "is_primary": false,
+        "over_probability": 0.38,
+        "under_probability": 0.62
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.61,
+        "under_probability": 0.39
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.41,
+        "under_probability": 0.59
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.27,
+        "under_probability": 0.73
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.64,
+        "under_probability": 0.36
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.44,
+        "under_probability": 0.56
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.3,
+        "under_probability": 0.7
+      }
+    ]
+  },
+  "first_5_innings": {
+    "moneyline": {
+      "home_probability": 0.38,
+      "away_probability": 0.43,
+      "tie_probability": 0.19
+    },
+    "total_runs": [
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.62,
+        "under_probability": 0.38
+      },
+      {
+        "threshold": 4.5,
+        "is_primary": true,
+        "over_probability": 0.44,
+        "under_probability": 0.56
+      },
+      {
+        "threshold": 5.5,
+        "is_primary": false,
+        "over_probability": 0.3,
+        "under_probability": 0.7
+      }
+    ],
+    "home_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.62,
+        "under_probability": 0.38
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.36,
+        "under_probability": 0.64
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.17,
+        "under_probability": 0.83
+      }
+    ],
+    "away_team_total_runs": [
+      {
+        "threshold": 1.5,
+        "is_primary": false,
+        "over_probability": 0.67,
+        "under_probability": 0.33
+      },
+      {
+        "threshold": 2.5,
+        "is_primary": true,
+        "over_probability": 0.41,
+        "under_probability": 0.59
+      },
+      {
+        "threshold": 3.5,
+        "is_primary": false,
+        "over_probability": 0.21,
+        "under_probability": 0.79
+      }
+    ]
+  },
+  "top_5_bets": [
+    "前5局 客隊總得分 大於 1.5",
+    "全場 客隊總得分 大於 3.5",
+    "前5局 主隊總得分 小於 2.5",
+    "前5局 總得分 大於 3.5",
+    "全場 獨贏盤 客隊 (SEA)"
+  ],
+  "analysis_summary": "1. 假性先發識別與風險模型調整：水手隊提交名單顯示先發投手為野手 Owen Miller，實務上意味著輪值異動，極高機率採取「牛棚車輪戰」或假性先發（Opener）策略。模型已針對此變數調降水手前段局數的穩定度；然而，水手牛棚賽季防禦率高達 3.59、WHIP 1.17，整體壓制力依然具備高水準，仍能有效抑制對手火力。\n\n2. 前5局（1-5局）進階數據剖析：遊騎兵先發 Gore 雖有不錯的三振能力，但近 5 場 ERA 飆升至 6.75，且 HR/9 高達 1.9，容易在首兩輪遭遇亂流。水手陣中右打群（如 J-Rod、Arozarena）預期能對 Gore 造成重傷害，這讓水手前 5 局得分大於 1.5 的期望值高達 67%。另一方面，面對水手高素質的車輪戰調度，遊騎兵前 5 局欲突破 2.5 分的門檻相對困難。\n\n3. 全場勝負與走勢收斂：考量遊騎兵 Gore 的不穩定性及牛棚疑慮，全場預期水手能維持微幅的領先優勢。在獨贏盤的期望值運算中，水手憑藉更深厚的投手戰力與長打威脅獲得 53% 勝率。結合雙方數據，優先推薦前 5 局客隊大分及全場水手獨贏盤口。"
+}

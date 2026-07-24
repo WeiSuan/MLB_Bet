@@ -1,0 +1,118 @@
+{
+  "MIN": {
+    "home_away": "home",
+    "starting_pitcher": "Matthews",
+    "roster": [
+      {
+        "name": "Bell",
+        "position": "DH"
+      },
+      {
+        "name": "Buxton",
+        "position": "CF"
+      },
+      {
+        "name": "Caratini",
+        "position": "C"
+      },
+      {
+        "name": "Clemens",
+        "position": "1B"
+      },
+      {
+        "name": "Jackson, A",
+        "position": "C"
+      },
+      {
+        "name": "Jeffers",
+        "position": "C"
+      },
+      {
+        "name": "Keaschall",
+        "position": "2B"
+      },
+      {
+        "name": "Kreidler",
+        "position": "SS"
+      },
+      {
+        "name": "Larnach",
+        "position": "LF"
+      },
+      {
+        "name": "Lee, B",
+        "position": "SS"
+      },
+      {
+        "name": "Lewis, R",
+        "position": "3B"
+      },
+      {
+        "name": "Martin",
+        "position": "RF"
+      },
+      {
+        "name": "Roden",
+        "position": "RF"
+      }
+    ]
+  },
+  "ATH": {
+    "home_away": "away",
+    "starting_pitcher": "Lopez",
+    "roster": [
+      {
+        "name": "Bolte",
+        "position": "CF"
+      },
+      {
+        "name": "Butler, L",
+        "position": "RF"
+      },
+      {
+        "name": "Cortes",
+        "position": "RF"
+      },
+      {
+        "name": "Heim",
+        "position": "C"
+      },
+      {
+        "name": "Langeliers",
+        "position": "C"
+      },
+      {
+        "name": "McNeil",
+        "position": "2B"
+      },
+      {
+        "name": "Muncy",
+        "position": "3B"
+      },
+      {
+        "name": "Soderstrom",
+        "position": "LF"
+      },
+      {
+        "name": "Thomas, C",
+        "position": "RF"
+      },
+      {
+        "name": "Walton",
+        "position": "3B"
+      },
+      {
+        "name": "White",
+        "position": "3B"
+      },
+      {
+        "name": "Williams",
+        "position": "SS"
+      },
+      {
+        "name": "Wilson, J",
+        "position": "SS"
+      }
+    ]
+  }
+}
